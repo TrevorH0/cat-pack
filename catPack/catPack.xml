@@ -3,11 +3,12 @@
 	<!--Main module-->
 	<MarkerCategory name="ct" displayName="-cat train">
 		
-		<!--Heart of Thorns-->
-		<MarkerCategory name="hot" displayName="Heart of Thorns">
+		<!--Hero Point Trains-->
+		<MarkerCategory name="hpt" displayName="Hero Point Trains">
 		
-			<!--Hero Point Train-->
-			<MarkerCategory name="hothp" displayName="Hero Point Train">
+		
+			<!--Heart of Thorns-->
+			<MarkerCategory name="hot" displayName="Heart of Thorns">
 			
 				<!--Verdant Brink HPs-->
 				<MarkerCategory name="vb" displayName="Verdant Brink">
@@ -23,8 +24,8 @@
 					<MarkerCategory name="mrk" displayName="Markers" iconSize="0.5">
 						<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
 						<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-						<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
-						<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
+						<MarkerCategory name="hpm" displayName="Hero Points" iconFile="Data/catPack/Markers/heroPoint.png"/>
+						<MarkerCategory name="wp" displayName="Waypoints" iconFile="Data/catPack/Markers/waypoint.png"/>
 					
 					</MarkerCategory>
 				</MarkerCategory>
@@ -44,13 +45,25 @@
 					<MarkerCategory name="mrk" displayName="Markers" iconSize="0.5">
 						<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
 						<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-						<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
-						<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
+						<MarkerCategory name="hpm" displayName="Hero Points" iconFile="Data/catPack/Markers/heroPoint.png"/>
+						<MarkerCategory name="wp" displayName="Waypoints" iconFile="Data/catPack/Markers/waypoint.png"/>
 					
 					</MarkerCategory>
 				</MarkerCategory>
-				
 			</MarkerCategory>
+			
+			
+			
+			<!--Path of Fire-->
+			<MarkerCategory name="pof" displayName="Path of Fire">
+				
+				<!--Crystal Oasis HPs-->
+				<MarkerCategory name="co" displayName="Crystal Oasis">
+				
+			
+				</MarkerCategory>
+			</MarkerCategory>
+
 		</MarkerCategory>
 	</MarkerCategory>
 	
