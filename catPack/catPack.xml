@@ -1,0 +1,63 @@
+<OverlayData>
+
+	<!--Main module-->
+	<MarkerCategory name="ct" displayName="-cat train">
+		
+		<!--Heart of Thorns-->
+		<MarkerCategory name="hot" displayName="Heart of Thorns">
+		
+			<!--Hero Point Train-->
+			<MarkerCategory name="hothp" displayName="Hero Point Train">
+			
+				<!--Verdant Brink HPs-->
+				<MarkerCategory name="vb" displayName="Verdant Brink">
+					
+					<!--Trail textures-->
+					<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
+					<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
+					<!--Marker icons-->
+					<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
+					<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
+					<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
+					<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
+					
+				</MarkerCategory>
+
+
+				<!--Auric Basin HPs-->
+				<MarkerCategory name="ab" displayName="Auric Basin">
+				
+					<!--Trail textures-->
+					<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
+					<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
+					<!--Marker icons-->
+					<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
+					<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
+					<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
+					<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
+
+				</MarkerCategory>
+				
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	
+	
+
+<!--POIs-->
+
+	<POIs>
+	
+        <POI MapID="" xpos="" ypos="" zpos="" type="" GUID=""/>
+	
+
+
+<!--Trails-->
+
+        <Trail type="" trailData="Data/catPack/Trails/.trl"/>
+		
+	</POIs>
+
+
+
+</OverlayData>
