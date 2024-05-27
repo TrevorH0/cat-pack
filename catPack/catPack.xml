@@ -11,16 +11,22 @@
 			
 				<!--Verdant Brink HPs-->
 				<MarkerCategory name="vb" displayName="Verdant Brink">
-					
+				
 					<!--Trail textures-->
-					<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
-					<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
-					<!--Marker icons-->
-					<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
-					<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-					<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
-					<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
+					<MarkerCategory name="trl" displayName="Trails">
+						<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
+						<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
+						
+					</MarkerCategory>
 					
+					<!--Marker icons-->
+					<MarkerCategory name="mrk" displayName="Markers" iconSize="0.5">
+						<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
+						<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
+						<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
+						<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
+					
+					</MarkerCategory>
 				</MarkerCategory>
 
 
@@ -28,14 +34,20 @@
 				<MarkerCategory name="ab" displayName="Auric Basin">
 				
 					<!--Trail textures-->
-					<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
-					<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
+					<MarkerCategory name="trl" displayName="Trails">
+						<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
+						<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
+					
+					</MarkerCategory>
+					
 					<!--Marker icons-->
-					<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
-					<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-					<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
-					<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
-
+					<MarkerCategory name="mrk" displayName="Markers" iconSize="0.5">
+						<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
+						<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
+						<MarkerCategory name="hpm" displayName="Hero Point Markers" iconFile="Data/catPack/Markers/heroPoint.png"/>
+						<MarkerCategory name="wp" displayName="Waypoint Markers" iconFile="Data/catPack/Markers/waypoint.png"/>
+					
+					</MarkerCategory>
 				</MarkerCategory>
 				
 			</MarkerCategory>
@@ -43,18 +55,23 @@
 	</MarkerCategory>
 	
 	
+	
 
 <!--POIs-->
 
 	<POIs>
 	
+	
         <POI MapID="" xpos="" ypos="" zpos="" type="" GUID=""/>
 	
 
 
+
 <!--Trails-->
 
-        <Trail type="" trailData="Data/catPack/Trails/.trl"/>
+        <Trail type="ct.hot.hothp.vb.trl.mtr" trailData="Data/catPack/Trails/.trl"/>
+		
+		
 		
 	</POIs>
 
