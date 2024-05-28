@@ -6,49 +6,113 @@
 		<!--Hero Point Trains-->
 		<MarkerCategory name="hpt" displayName="Hero Point Trains">
 		
-		
 			<!--Heart of Thorns-->
 			<MarkerCategory name="hot" displayName="Heart of Thorns">
 			
-				<!--Verdant Brink HPs-->
+				<!--Verdant Brink-->
 				<MarkerCategory name="vb" displayName="Verdant Brink">
 				
+	
+					<!--Marker icons-->
+					<MarkerCategory name="mrk" displayName="Markers">
+						<!--Hero Points-->
+						<MarkerCategory name="hp" displayName="Hero Points">
+							<MarkerCategory name="chp" displayName="Commune Hero Points" iconSize="2" iconFile="Data/catPack/Markers/communeHP.png"/>
+							<MarkerCategory name="bhp" displayName="Battle Hero Points" iconSize="2" iconFile="Data/catPack/Markers/battleHP.png"/>
+							<MarkerCategory name="hotm" displayName="Mastery Points" iconFile="Data/catPack/Markers/hotMastery.png"/>
+						</MarkerCategory>
+						<!--Waypoints-->
+						<MarkerCategory name="wp" displayName="Waypoints" iconSize="1.9">
+							<MarkerCategory name="swpwp" displayName="Shipwreck Peak Waypoint" iconFile="Data/catPack/Markers/swpWP.png"/>
+							<MarkerCategory name="fafwp" displayName="Faren's Flyer Waypoint" iconFile="Data/catPack/Markers/fafWP.png"/>
+							<MarkerCategory name="penwp" displayName="Pact Encampment Waypoint" iconFile="Data/catPack/Markers/penWP.png"/>
+						</MarkerCategory>
+						<!--Guidance-->
+						<MarkerCategory name="guide" displayName="Guidance" iconSize="2">
+							<MarkerCategory name="trs" displayName="Train Start" iconFile="Data/catPack/Markers/hotTrainStart.png"/>
+							<MarkerCategory name="ct1" displayName="Continue 1" iconFile="Data/catPack/Markers/continue1HP1.png"/>
+							<MarkerCategory name="ct2" displayName="Continue 2" iconFile="Data/catPack/Markers/continue2HP4.png"/>
+							<MarkerCategory name="ct3" displayName="Continue 3" iconFile="Data/catPack/Markers/continue3HP7.png"/>
+							<MarkerCategory name="ct4" displayName="Continue 4" iconFile="Data/catPack/Markers/continue4HP9.png"/>
+							<MarkerCategory name="ct5" displayName="Continue 5" iconFile="Data/catPack/Markers/continue5HP10.png"/>
+							<MarkerCategory name="nxm" displayName="Next Map" iconFile="Data/catPack/Markers/nextMap.png"/>
+							<MarkerCategory name="dth" displayName="Death Icons" iconFile="Data/catPack/Markers/death.png"/>
+						</MarkerCategory>
+						<!--Commander Assistant-->
+						<MarkerCategory name="cma" displayName="Commander Assistant">
+							<MarkerCategory name="pen" displayName="Portal Entre" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalEntre.png"/>
+							<MarkerCategory name="pex" displayName="Portal Exeunt" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalExeunt.png"/>
+							<MarkerCategory name="jpr" displayName="Jade Protocols" iconSize="1.6" iconFile="Data/catPack/Markers/jadeProto.png"/>
+							<MarkerCategory name="abu" displayName="Request Backup" iconSize="1.2" iconFile="Data/catPack/Markers/alertBackup.png"/>
+							<MarkerCategory name="cspr" displayName="Springer Icons" iconSize="1.5" iconFile="Data/catPack/Markers/canSpringer.png"/>
+								<!--Commander Markers-->
+								<MarkerCategory name="cmm" displayName="Commander Markers" alpha="0.8">
+									<MarkerCategory name="carr" displayName="Arrow" iconFile="Data/catPack/Markers/commArrow.png"/>
+									<MarkerCategory name="ccir" displayName="Circle" iconFile="Data/catPack/Markers/commCircle.png"/>
+									<MarkerCategory name="chea" displayName="Heart" iconFile="Data/catPack/Markers/commHeart.png"/>
+									<MarkerCategory name="csqu" displayName="Square" iconFile="Data/catPack/Markers/commSquare.png"/>
+									<MarkerCategory name="csta" displayName="Star" iconFile="Data/catPack/Markers/commStar.png"/>
+									<MarkerCategory name="cspi" displayName="Spiral" iconFile="Data/catPack/Markers/commSpiral.png"/>
+									<MarkerCategory name="ctri" displayName="Triangle" iconFile="Data/catPack/Markers/commTriangle.png"/>
+									<MarkerCategory name="cx" displayName="X" iconFile="Data/catPack/Markers/commX.png"/>
+								</MarkerCategory>
+						</MarkerCategory>
+					</MarkerCategory>
+					
 					<!--Trail textures-->
 					<MarkerCategory name="trl" displayName="Trails">
 						<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
+						<MarkerCategory name="atr" displayName="Alternative Trail" texture="Data/catPack/Markers/trailAqua.png"/>
 						<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
+					</MarkerCategory>
 						
-					</MarkerCategory>
 					
-					<!--Marker icons-->
-					<MarkerCategory name="mrk" displayName="Markers" iconSize="0.5">
-						<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
-						<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-						<MarkerCategory name="hpm" displayName="Hero Points" iconFile="Data/catPack/Markers/heroPoint.png"/>
-						<MarkerCategory name="wp" displayName="Waypoints" iconFile="Data/catPack/Markers/waypoint.png"/>
-					
-					</MarkerCategory>
 				</MarkerCategory>
 
 
-				<!--Auric Basin HPs-->
+				<!--Auric Basin-->
 				<MarkerCategory name="ab" displayName="Auric Basin">
 				
+					
+					<!--Marker icons-->
+					<MarkerCategory name="mrk" displayName="Markers">
+						<!--Hero Points-->
+						<MarkerCategory name="hp" displayName="Hero Points">
+							<MarkerCategory name="chp" displayName="Commune Hero Points" iconFile="Data/catPack/Markers/communeHP.png"/>
+							<MarkerCategory name="bhp" displayName="Battle Hero Points" iconFile="Data/catPack/Markers/battleHP.png"/>
+							<MarkerCategory name="ebhp" displayName="Bacon Hero Point" iconFile="Data/catPack/Markers/bacon.png"/>
+						</MarkerCategory>
+						<!--Waypoints-->
+						<MarkerCategory name="wp" displayName="Waypoints">
+							<MarkerCategory name="swpwp" displayName="Shipwreck Peak Waypoint" iconFile="Data/catPack/Markers/swpWP.png"/>
+							<MarkerCategory name="fafwp" displayName="Faren's Flyer Waypoint" iconFile="Data/catPack/Markers/fafWP.png"/>
+							<MarkerCategory name="penwp" displayName="Pact Encampment Waypoint" iconFile="Data/catPack/Markers/penWP.png"/>
+						</MarkerCategory>
+						<!--Commander Assistant-->
+						<MarkerCategory name="cma" displayName="Commander Assistant">
+							<MarkerCategory name="trs" displayName="Train Start" iconFile="Data/catPack/Markers/hotTrainStart.png"/>
+							<!--Add continue markers here-->
+							<MarkerCategory name="nxm" displayName="Next Map" iconFile="Data/catPack/Markers/nextMap.png"/>
+						</MarkerCategory>
+						<!--Miscellaneous-->
+						<MarkerCategory name="misc" displayName="Miscellaneous">
+							<MarkerCategory name="pen" displayName="Portal Entre" iconSize="0.5" iconFile="Data/catPack/Markers/portalEntre.png"/>
+							<MarkerCategory name="pex" displayName="Portal Exeunt" iconSize="0.5" iconFile="Data/catPack/Markers/portalExeunt.png"/>
+							<MarkerCategory name="jbwp" displayName="Jade Bot Waypoint" iconFile="Data/catPack/Markers/jbwp.png"/>
+							<MarkerCategory name="hotm" displayName="HoT Mastery" iconFile="Data/catPack/Markers/hotMastery.png"/>
+							<MarkerCategory name="cspr" displayName="Springer Icon" iconFile="Data/catPack/Markers/canSpringer.png"/>
+							<MarkerCategory name="dth" displayName="Death Icon" iconFile="Data/catPack/Markers/death.png"/>
+						</MarkerCategory>
+						
 					<!--Trail textures-->
 					<MarkerCategory name="trl" displayName="Trails">
 						<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
+						<MarkerCategory name="atr" displayName="Alternative Trail" texture="Data/catPack/Markers/trailAqua.png"/>
 						<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
-					
+					</MarkerCategory>
+						
 					</MarkerCategory>
 					
-					<!--Marker icons-->
-					<MarkerCategory name="mrk" displayName="Markers" iconSize="0.5">
-						<MarkerCategory name="pen" displayName="Portal Entre" iconFile="Data/catPack/Markers/portalEntre.png"/>
-						<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-						<MarkerCategory name="hpm" displayName="Hero Points" iconFile="Data/catPack/Markers/heroPoint.png"/>
-						<MarkerCategory name="wp" displayName="Waypoints" iconFile="Data/catPack/Markers/waypoint.png"/>
-					
-					</MarkerCategory>
 				</MarkerCategory>
 			</MarkerCategory>
 			
@@ -57,7 +121,7 @@
 			<!--Path of Fire-->
 			<MarkerCategory name="pof" displayName="Path of Fire">
 				
-				<!--Crystal Oasis HPs-->
+				<!--Crystal Oasis-->
 				<MarkerCategory name="co" displayName="Crystal Oasis">
 				
 			
@@ -73,7 +137,6 @@
 <!--POIs-->
 
 	<POIs>
-	
 	
         <POI MapID="" xpos="" ypos="" zpos="" type="" GUID=""/>
 	
