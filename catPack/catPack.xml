@@ -1,13 +1,13 @@
 <OverlayData>
 
 	<!--Main module-->
-	<MarkerCategory name="ct" displayName="-cat train" defaulttoggle="0">
+	<MarkerCategory name="ct" displayName="-cat train" defaulttoggle="0" alpha="0.9" fadeNear="2500" fadeFar="5000">
 		
 		<!--Hero Point Trains-->
 		<MarkerCategory name="hpt" displayName="Hero Point Trains" defaulttoggle="0">
 		
 			<!--Heart of Thorns-->
-			<MarkerCategory name="hot" displayName="Heart of Thorns" fadeNear="2500" fadeFar="5000">
+			<MarkerCategory name="hot" displayName="Heart of Thorns">
 			
 				<!--Verdant Brink-->
 				<MarkerCategory name="vb" displayName="Verdant Brink" MapId="1052">
@@ -19,95 +19,95 @@
 						<MarkerCategory name="hp" displayName="Hero Points">
 						
 							<MarkerCategory name="chp" displayName="Commune Hero Points" iconSize="2" iconFile="Data/catPack/Markers/communeHP.png"
-							triggerRange="2.5" inforange="2.5"
-							info="Interact to copy message: Commune with the Hero Point!" 
-							copy-message="Message copied." copy="Commune with the Hero Point!"/>
+							triggerRange="2" inforange="2"/>
 							
-							<MarkerCategory name="bhp" displayName="Battle Hero Points" iconSize="2" iconFile="Data/catPack/Markers/battleHP.png"/>
+							<MarkerCategory name="bhp" displayName="Battle Hero Points" iconSize="2" iconFile="Data/catPack/Markers/battleHP.png"
+							triggerRange="2" inforange="2"/>
 							
 							<MarkerCategory name="hotm" displayName="Mastery Points" iconFile="Data/catPack/Markers/hotMastery.png"
-							triggerRange="2.5" inforange="2.5"
+							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Mastery insight here -- grab it!"
-							copy-message="Message copied." copy="Mastery insight here -- grab it!"/>
+							copy-message="Mastery message copied." copy="Mastery insight here -- grab it!"/>
 							
 						</MarkerCategory>
 						<!--Waypoints-->
-						<MarkerCategory name="wp" displayName="Waypoints" iconSize="1.9" triggerRange="2.5" inforange="2.5" mapVisibility="0" miniMapVisibility="0">
+						<MarkerCategory name="wp" displayName="Waypoints" iconSize="1.9" triggerRange="2" inforange="2" 
+						mapVisibility="0" miniMapVisibility="0" copy-message="Waypoint message copied.">
 						
 							<MarkerCategory name="swpwp" displayName="Shipwreck Peak Waypoint" iconFile="Data/catPack/Markers/swpWP.png"
 							info="Interact to copy message: &#xA;Waypoint to Shipwreck Peak after HP! [&BN4HAAA=]"
-							copy-message="Message copied." copy="Waypoint to Shipwreck Peak after HP! [&BN4HAAA=]"/>
+							copy="Waypoint to Shipwreck Peak after HP! [&BN4HAAA=]"/>
 							
 							<MarkerCategory name="fafwp" displayName="Faren's Flyer Waypoint" iconFile="Data/catPack/Markers/fafWP.png"
 							info="Interact to copy message: &#xA;Waypoint to Faren's Flyer after HP! [&BO8HAAA=]"
-							copy-message="Message copied." copy="Waypoint to Faren's Flyer after HP! [&BO8HAAA=]"/>
+							copy="Waypoint to Faren's Flyer after HP! [&BO8HAAA=]"/>
 							
 							<MarkerCategory name="penwp" displayName="Pact Encampment Waypoint" iconFile="Data/catPack/Markers/penWP.png"
 							info="Interact to copy message: &#xA;Waypoint to Pact Encampment after HP! [&BAgIAAA=]"
-							copy-message="Message copied." copy="Waypoint to Pact Encampment after HP! [&BAgIAAA=]"/>
+							copy="Waypoint to Pact Encampment after HP! [&BAgIAAA=]"/>
 							
 						</MarkerCategory>
 						<!--Guidance-->
 						<MarkerCategory name="guide" displayName="Guidance" iconSize="2" miniMapVisibility="0">
 						
 							<MarkerCategory name="trs" displayName="Train Start" iconFile="Data/catPack/Markers/hotTrainStart.png"
-							triggerRange="2.5" inforange="2.5"
+							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Let's get started! Each map will take about 25-35 minutes (~90 minutes overall), &#xA;and we'll have a 5 minute break at Tangled Depths (~60 minutes in)." 
-							copy-message="Message copied." copy="Let's get started! Each map will take about 25-35 minutes (~90 minutes overall), and we'll have a 5 minute break at Tangled Depths (~60 minutes in)."/>
+							copy-message="Train start message copied." copy="Let's get started! Each map will take about 25-35 minutes (~90 minutes overall), and we'll have a 5 minute break at Tangled Depths (~60 minutes in)."/>
 
 							<MarkerCategory name="ct1" displayName="Continue 1" iconFile="Data/catPack/Markers/continue1HP1.png"/>
-							<MarkerCategory name="ct2" displayName="Continue 2" iconFile="Data/catPack/Markers/continue2HP4.png"/>
+							<MarkerCategory name="ct2" displayName="Continue 2" iconFile="Data/catPack/Markers/continue2HP5.png"/>
 							<MarkerCategory name="ct3" displayName="Continue 3" iconFile="Data/catPack/Markers/continue3HP7.png"/>
 							<MarkerCategory name="ct4" displayName="Continue 4" iconFile="Data/catPack/Markers/continue4HP9.png"/>
 							<MarkerCategory name="ct5" displayName="Continue 5" iconFile="Data/catPack/Markers/continue5HP10.png"/>
 							
 							<MarkerCategory name="nxm" displayName="Next Map" iconFile="Data/catPack/Markers/nextMap.png"
-							triggerRange="2.5" inforange="2.5"
+							triggerRange="2" inforange="2"
 							info="Interact to copy message:&#xA;Onto the next map: Auric Basin!"
-							copy-message="Message copied." copy="Onto the next map: Auric Basin!"/>
+							copy-message="Next map message copied." copy="Onto the next map: Auric Basin!"/>
 							
-							<MarkerCategory name="dth" displayName="Death Icons" iconFile="Data/catPack/Markers/death.png"/>
-							<MarkerCategory name="chest" displayName="Chest Icons" iconFile="Data/catPack/Markers/chest.png"/>
-							
+							<MarkerCategory name="dth" displayName="Death Icons" mapVisibility="0" iconSize = "1" fadeFar="6500" iconFile="Data/catPack/Markers/death.png"/>
+							<MarkerCategory name="chest" displayName="Chest Icons" iconSize="0.7" iconFile="Data/catPack/Markers/chest.png"
+							behavior="4" resetLength="15" triggerRange="2" inforange="2"/>
 						</MarkerCategory>
 						<!--Commander Assistant-->
 						<MarkerCategory name="cma" displayName="Commander Assistant" defaulttoggle="0" mapVisibility="0" miniMapVisibility="0">
 						
-							<MarkerCategory name="pen" displayName="Portal Entre" alpha="0.65" iconSize="1.5" iconFile="Data/catPack/Markers/portalEntre.png"
+							<MarkerCategory name="pen" displayName="Portal Entre" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalEntre.png"
 							info="Interact to copy message: &#xA;Portal placed, get ready!"
-							copy-message="Message copied." copy="Portal placed, get ready!"/>
+							copy-message="Portal message copied." copy="Portal placed, get ready!"/>
 							
-							<MarkerCategory name="pex" displayName="Portal Exeunt" alpha="0.65" iconSize="1.5" iconFile="Data/catPack/Markers/portalExeunt.png"
+							<MarkerCategory name="pex" displayName="Portal Exeunt" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalExeunt.png"
 							info="Interact to copy message: &#xA;Interact! [&BtcnAAA=]"
-							copy-message="Message copied." copy="Interact! [&BtcnAAA=]"/>
+							copy-message="Portal message copied." copy="Interact! [&BtcnAAA=]"/>
 							
 							<MarkerCategory name="jpr" displayName="Jade Protocols" iconSize="1.6" iconFile="Data/catPack/Markers/jadeProto.png"
-							triggerRange="2.5" inforange="2.5"
+							triggerRange="2" inforange="2"
 							info="Interact to copy Promenade Waypoint. &#xA;Grab 2-3 Jade Batteries and overcharge with the Jade Tech Offensive Protocol to help with Alacrity uptime. &#xA;Using Chronomancer's boosted Alacrity trait also helps with portal uptime."
-							copy-message="Message copied." copy="[&BMYMAAA=]"/>
+							copy-message="JP waypoint message copied." copy="[&BMYMAAA=]"/>
 							
 							<MarkerCategory name="rbu" displayName="Request Backup" iconSize="1.2" iconFile="Data/catPack/Markers/alertBackup.png"
-							triggerRange="2.5" inforange="2.5"
+							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;If you'd like to help with portals, it's much appreciated! &#xA;And if you have a Skyscale or Springer, using that will help as well; &#xA;portals are 20-use!"
-							copy-message="Message copied." copy="If you'd like to help with portals, it's much appreciated! And if you have a Skyscale or Springer, using that will help as well; portals are 20-use!"/>
+							copy-message="Request backup message copied." copy="If you'd like to help with portals, it's much appreciated! And if you have a Skyscale or Springer, using that will help as well; portals are 20-use!"/>
 							
 							<MarkerCategory name="tri1" displayName="Train Information 1" iconFile="Data/catPack/Markers/pinkCat.png"
-							triggerRange="2.5" inforange="2.5"
+							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;If you miss a Hero Point, say something so that I don't move on without you! &#xA;I have no way of knowing without communication."
-							copy-message="Message copied." copy="If you miss a Hero Point, say something so that I don't move on without you! I have no way of knowing without communication."/>
+							copy-message="Train Info 1 message copied." copy="If you miss a Hero Point, say something so that I don't move on without you! I have no way of knowing without communication."/>
 							
 							<MarkerCategory name="tri2" displayName="Train Information 2" iconFile="Data/catPack/Markers/purpleCat.png"
-							triggerRange="2.5" inforange="2.5"
+							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Furthermore, I can only wait so long if you get lost, as it would be unfair to the rest of the squad. &#xA;I apologize for this, so please reach out to me after the train to get any missed HPs."
-							copy-message="Message copied." copy="Furthermore, I can only wait so long if you get lost, as it would be unfair to the rest of the squad. I apologize for this, so please reach out to me after the train to get any missed HPs."/>
+							copy-message="Train Info 2 message copied." copy="Furthermore, I can only wait so long if you get lost, as it would be unfair to the rest of the squad. I apologize for this, so please reach out to me after the train to get any missed HPs."/>
 							
 							<MarkerCategory name="cspr" displayName="Springer Icons" iconSize="1.5" iconFile="Data/catPack/Markers/canSpringer.png"
-							behavior="4" resetLength="10" triggerRange="2.5" inforange="2.5"
+							behavior="4" resetLength="15" triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Springer can be used here!"
-							copy-message="Message copied." copy="Springer can be used here!"/>
+							copy-message="Springer message copied." copy="Springer can be used here!"/>
 							
 								<!--Commander Markers-->
-								<MarkerCategory name="cmm" displayName="Commander Markers" alpha="0.8" mapVisibility="0" miniMapVisibility="0">
+								<MarkerCategory name="cmm" displayName="Commander Markers" mapVisibility="0" miniMapVisibility="0">
 									<MarkerCategory name="carr" displayName="Arrow" iconFile="Data/catPack/Markers/commArrow.png"/>
 									<MarkerCategory name="ccir" displayName="Circle" iconFile="Data/catPack/Markers/commCircle.png"/>
 									<MarkerCategory name="chea" displayName="Heart" iconFile="Data/catPack/Markers/commHeart.png"/>
@@ -129,94 +129,155 @@
 						
 					
 				</MarkerCategory>
-
-
-				<!--Auric Basin-->
-				<MarkerCategory name="ab" displayName="Auric Basin">
-				
-					
-					<!--Marker icons-->
-					<MarkerCategory name="mrk" displayName="Markers">
-						<!--Hero Points-->
-						<MarkerCategory name="hp" displayName="Hero Points">
-							<MarkerCategory name="chp" displayName="Commune Hero Points" iconFile="Data/catPack/Markers/communeHP.png"/>
-							<MarkerCategory name="bhp" displayName="Battle Hero Points" iconFile="Data/catPack/Markers/battleHP.png"/>
-							<MarkerCategory name="ebhp" displayName="Bacon Hero Point" iconFile="Data/catPack/Markers/bacon.png"/>
-						</MarkerCategory>
-						<!--Waypoints-->
-						<MarkerCategory name="wp" displayName="Waypoints">
-							<MarkerCategory name="swpwp" displayName="Shipwreck Peak Waypoint" iconFile="Data/catPack/Markers/swpWP.png"/>
-							<MarkerCategory name="fafwp" displayName="Faren's Flyer Waypoint" iconFile="Data/catPack/Markers/fafWP.png"/>
-							<MarkerCategory name="penwp" displayName="Pact Encampment Waypoint" iconFile="Data/catPack/Markers/penWP.png"/>
-						</MarkerCategory>
-						<!--Commander Assistant-->
-						<MarkerCategory name="cma" displayName="Commander Assistant">
-							<MarkerCategory name="trs" displayName="Train Start" iconFile="Data/catPack/Markers/hotTrainStart.png"/>
-							<!--Add continue markers here-->
-							<MarkerCategory name="nxm" displayName="Next Map" iconFile="Data/catPack/Markers/nextMap.png"/>
-						</MarkerCategory>
-						<!--Miscellaneous-->
-						<MarkerCategory name="misc" displayName="Miscellaneous">
-							<MarkerCategory name="pen" displayName="Portal Entre" iconSize="0.5" iconFile="Data/catPack/Markers/portalEntre.png"/>
-							<MarkerCategory name="pex" displayName="Portal Exeunt" iconSize="0.5" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-							<MarkerCategory name="jbwp" displayName="Jade Bot Waypoint" iconFile="Data/catPack/Markers/jbwp.png"/>
-							<MarkerCategory name="hotm" displayName="HoT Mastery" iconFile="Data/catPack/Markers/hotMastery.png"/>
-							<MarkerCategory name="cspr" displayName="Springer Icon" iconFile="Data/catPack/Markers/canSpringer.png"/>
-							<MarkerCategory name="dth" displayName="Death Icon" iconFile="Data/catPack/Markers/death.png"/>
-						</MarkerCategory>
-						
-					<!--Trail textures-->
-					<MarkerCategory name="trl" displayName="Trails">
-						<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
-						<MarkerCategory name="atr" displayName="Alternative Trail" texture="Data/catPack/Markers/trailAqua.png"/>
-						<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
-					</MarkerCategory>
-						
-					</MarkerCategory>
-					
-				</MarkerCategory>
 			</MarkerCategory>
 			
-			
-			
-			<!--Path of Fire-->
-			<MarkerCategory name="pof" displayName="Path of Fire">
-				
-				<!--Crystal Oasis-->
-				<MarkerCategory name="co" displayName="Crystal Oasis">
-				
-			
-				</MarkerCategory>
-			</MarkerCategory>
-
 		</MarkerCategory>
+		
 	</MarkerCategory>
-	
-	
-	
+
+
+
 
 <!--POIs-->
 
 	<POIs>
-	
+		
+		<!--VB HP Train Start-->
 		<POI MapID="1052" xpos="873.19" ypos="430.05" zpos="53.9332" type="ct.hpt.hot.vb.mrk.guide.trs" GUID="bZ2go/sjEk2S+08wBUD4Xw=="/>
         <POI MapID="1052" xpos="878.247" ypos="429.161" zpos="49.4873" type="ct.hpt.hot.vb.mrk.cma.jpr" GUID="YboDLlogjkKJkAWBiwDmvg=="/>
         <POI MapID="1052" xpos="876.309" ypos="428.579" zpos="59.6873" type="ct.hpt.hot.vb.mrk.cma.rbu" GUID="74om2s4s+kSod+DgCx8HAA=="/>
-        <POI MapID="1052" xpos="678.999" ypos="348.744" zpos="94.5214" type="ct.hpt.hot.vb.mrk.hp.hotm" GUID="blPqBE9wskqmUufXibX5RQ=="/>
         <POI MapID="1052" xpos="589.705" ypos="47.826" zpos="-48.573" type="ct.hpt.hot.vb.mrk.hp.hotm" GUID="jPTINBIeGUudJoAPP85Jiw=="/>
+		<!--VB HP 1-->
         <POI MapID="1052" xpos="579.397" ypos="13.8535" zpos="-29.8139" type="ct.hpt.hot.vb.mrk.hp.bhp" GUID="O1JrdLQ1iUqEHQjUMjGR5g=="
-        triggerRange="2.5" inforange="2.5" copy-message="Message copied." info="Interact to copy message: &#xA;Fight! HP 1/11" copy="Fight! HP 1/11"/>
+        info="Interact to copy message: &#xA;Fight! HP 1/11" copy-message="HP message copied." copy="Fight! HP 1/11"/>
         <POI MapID="1052" xpos="574.302" ypos="13.4426" zpos="-29.8019" type="ct.hpt.hot.vb.mrk.cma.tri1" GUID="Yhn46TekXk2LGHYEtloLDw=="
-        behavior="4" resetLength="90"/>
-        <POI MapID="1052" xpos="574.302" ypos="13.4426" zpos="-29.8019" type="ct.hpt.hot.vb.mrk.cma.tri2" GUID="8YuRazbUTUipL5FaBLBUvg=="
-        behavior="4" resetLength="90" invertbehavior="1"/>
+        behavior="1"/>
+        <POI MapID="1052" xpos="574.302" ypos="13.4426" zpos="-29.8019" type="ct.hpt.hot.vb.mrk.cma.tri2" GUID="Yhn46TekXk2LGHYEtloLDw=="
+        behavior="1" invertbehavior="1"/>
         <POI MapID="1052" xpos="568.303" ypos="14.6855" zpos="-29.816" type="ct.hpt.hot.vb.mrk.wp.swpwp" GUID="x7mcMYav0kC/EZ9CkjPpKw=="/>
-
-
+		<POI MapID="1052" xpos="648.162" ypos="125.604" zpos="-59.0241" type="ct.hpt.hot.vb.mrk.guide.chest" GUID="viaoZpx5Z0y6FDc8mZwtBw==" 
+		copy-message="Message copied." info="Interact to copy message: &#xA;Collect the chest, then drop!" copy="Collect the chest, then drop!"/>
+		<!--VB HP 2-->
+		<POI MapID="1052" xpos="657.308" ypos="397.434" zpos="-357.192" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="bbSfxyggmEiDkZm2JHtREA=="/>
+		<POI MapID="1052" xpos="613.206" ypos="456.395" zpos="-431.247" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="uTwVW/ahj0qzzIWUi2CFxw=="/>
+		<POI MapID="1052" xpos="614.148" ypos="456.874" zpos="-424.571" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="sPzDqMlldEGK8lAWHiqDeA=="
+		info="Interact to copy message: &#xA;Commune! HP 2/11" copy-message="HP message copied." copy="Commune! HP 2/11"/>
+		<!--VB HP 3-->
+		<POI MapID="1052" xpos="169.517" ypos="466.97" zpos="144.719" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="4XFRgpX+3kO1BeIqWZpqyg=="/>
+		<POI MapID="1052" xpos="100.293" ypos="425.018" zpos="136.402" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="Qjmyz+ILn0iulhXvd+uZyw=="/>
+		<POI MapID="1052" xpos="182.117" ypos="583.742" zpos="202.663" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="qoaOmVNLEUmZUiFszfkEyg=="/>
+		<POI MapID="1052" xpos="177.171" ypos="470.263" zpos="150.563" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="ss2NPoEfUEK2d1mmazcPng=="/>
+		<POI MapID="1052" xpos="103.621" ypos="424.239" zpos="132.424" type="ct.hpt.hot.vb.mrk.cma.cspr" GUID="Hp0Ug3xns02bRRjMGbgtCA==" 
+		copy="(First portal only): Springer can be used here!"/>
+		<POI MapID="1052" xpos="199.38" ypos="582.549" zpos="215.165" type="ct.hpt.hot.vb.mrk.hp.bhp" GUID="moq0Wpz8SUyKoH+ddjMknA=="
+		info="Interact to copy message: &#xA;Fight! HP 3/11" copy-message="HP message copied." copy="Fight! HP 3/11"/>
+		<!--VB HP 4-->
+		<POI MapID="1052" xpos="519.75" ypos="417.996" zpos="303.848" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="z58SNe4Fj0KkGp67ZNuHvw=="
+		info="Interact to copy message: &#xA;Commune! HP 4/11" copy-message="HP message copied." copy="Commune! HP 4/11"/>
+		<POI MapID="1052" xpos="678.999" ypos="348.744" zpos="94.5214" type="ct.hpt.hot.vb.mrk.hp.hotm" GUID="blPqBE9wskqmUufXibX5RQ=="/>
+		<!--VB HP 5-->
+		<POI MapID="1052" xpos="354.352" ypos="165.241" zpos="134.201" type="ct.hpt.hot.vb.mrk.wp.penwp" GUID="YG38uu86HUSMPOKl+72RrQ=="/>
+        <POI MapID="1052" xpos="355.235" ypos="165.409" zpos="139.156" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="Ph+aHdkRIEqXSN7SlxzLEw=="
+		info="Interact to copy message: &#xA;Commune! HP 5/11" copy-message="HP message copied." copy="Commune! HP 5/11"/>
+		<!--VB Pact Encampment Mastery Portal-->
+		<POI MapID="1052" xpos="139.945" ypos="430.535" zpos="-46.7097" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="i0G3pfIFEU+w/fZ72MT0Rw=="/>
+		<POI MapID="1052" xpos="128.411" ypos="463.8" zpos="-121.39" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="gY7ul98kj0+UEPUiiPweaQ=="/>
+		<POI MapID="1052" xpos="128.15" ypos="466.591" zpos="-125.766" type="ct.hpt.hot.vb.mrk.hp.hotm" GUID="v/GRdWOH0ECmmDK3hobnLQ=="
+		info="Interact to copy message: &#xA;Mastery insight here -- grab it and drop after!" copy-message="Mastery message copied." copy="Mastery insight here -- grab it and drop after!"/>
+		<POI MapID="1052" xpos="137.193" ypos="430.837" zpos="-43.44" type="ct.hpt.hot.vb.mrk.cma.cspr" GUID="azVMb0gknkykwu6XXvlUpA=="/>
+		<!--VB HP 6-->
+		<POI MapID="1052" xpos="-440.772" ypos="583.226" zpos="-301.829" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="tco3KCaRFUWfRdnXdukZ0g=="/>
+		<POI MapID="1052" xpos="-336.082" ypos="569.26" zpos="-249.62" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="71bLYTPkYkWrU8M6OGt4lw=="/>
+		<POI MapID="1052" xpos="-326.789" ypos="581.892" zpos="-235.325" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="OoYRy3dqW0iwR1l1P+dsCw=="
+		info="Interact to copy message: &#xA;Commune! HP 6/11" copy-message="HP message copied." copy="Commune! HP 6/11"/>
+		<!--VB HP 7-->
+		<POI MapID="1052" xpos="-85.8672" ypos="125.716" zpos="-174.307" type="ct.hpt.hot.vb.mrk.guide.dth" GUID="1di0QcXQ/EyM/9ls46qbUg==" iconSize="1"/>
+		<POI MapID="1052" xpos="-73.0828" ypos="130.022" zpos="-158.818" type="ct.hpt.hot.vb.mrk.guide.dth" GUID="NPmd5t/IckW3EkgLlgRixQ==" iconSize="1"/>
+		<POI MapID="1052" xpos="-92.0601" ypos="128.042" zpos="-152.495" type="ct.hpt.hot.vb.mrk.guide.dth" GUID="D7plZD8rbkanOQgv8ZUC0w==" iconSize="1"/>
+		<POI MapID="1052" xpos="-80.5098" ypos="127.686" zpos="-155.065" type="ct.hpt.hot.vb.mrk.guide.dth" GUID="AFdT4DdSjUafa3X2A00Vqg==" iconSize="1"/>
+		<POI MapID="1052" xpos="-86.3162" ypos="126.245" zpos="-163.418" type="ct.hpt.hot.vb.mrk.guide.dth" GUID="esa+0a4Ge0m2sWwDoLOwkg==" iconSize="1"/>
+		<POI MapID="1052" xpos="-97.01" ypos="126.503" zpos="-169.395" type="ct.hpt.hot.vb.mrk.guide.dth" GUID="hzVzQKqgrEWJ84ZmDQcxsA==" iconSize="1"/>
+		<POI MapID="1052" xpos="-108.001" ypos="131.917" zpos="-155.418" type="ct.hpt.hot.vb.mrk.guide.dth" GUID="gb0q9KmERkmsQnJg2bfWjg==" iconSize="1"/>
+		<POI MapID="1052" xpos="-83.3529" ypos="27.7631" zpos="-130.948" type="ct.hpt.hot.vb.mrk.wp.fafwp" GUID="fXyS5LAzdku7VjvfaKLAiQ=="/>
+		<POI MapID="1052" xpos="-79.2181" ypos="27.8871" zpos="-134.249" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="gP4nSWNjt0Ks7vRLX5E24Q=="
+		info="Interact to copy message: &#xA;Commune! HP 7/11" copy-message="HP message copied." copy="Commune! HP 7/11"/>
+		<!--VB HP 8-->
+		<POI MapID="1052" xpos="-665.517" ypos="559.581" zpos="-135.505" type="ct.hpt.hot.vb.mrk.hp.bhp" GUID="9hGd7XeV+kqhJST3DL5bwg=="
+		info="Interact to copy message: &#xA;Fight! HP 8/11" copy-message="HP message copied." copy="Fight! HP 8/11"/>
+		<!--VB HP 9-->
+		<POI MapID="1052" xpos="-629.2" ypos="507.928" zpos="149.43" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="V219rYe3X0OwLEFxvuC4xQ=="/>
+		<POI MapID="1052" xpos="-605.136" ypos="446.26" zpos="180.194" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="bwktVkapqk+AF8cqIvpReA=="/>
+		<POI MapID="1052" xpos="-597.607" ypos="444.877" zpos="184.996" type="ct.hpt.hot.vb.mrk.wp.fafwp" GUID="CJZG6kCGYUuyjHeCWApaSA=="/>
+		<POI MapID="1052" xpos="-602.447" ypos="445.608" zpos="185.044" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="TTLjU0ZUV0qv9izVzEvA5w=="
+		info="Interact to copy message: &#xA;Commune! HP 9/11" copy-message="HP message copied." copy="Commune! HP 9/11"/>
+		<!--VB HP 10-->
+		<POI MapID="1052" xpos="-395.417" ypos="148.249" zpos="-118.166" type="ct.hpt.hot.vb.mrk.wp.fafwp" GUID="xqzFoaQRm0WurPjpHz3xhg=="/>
+		<POI MapID="1052" xpos="-400.329" ypos="148.719" zpos="-118.764" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="woUl6iowZEyVJPo2bT5fQA=="
+		info="Interact to copy message: &#xA;Commune! HP 10/11" copy-message="HP message copied." copy="Commune! HP 10/11"/>
+		<!--VB HP 11 + Chest/Mastery-->
+		<POI MapID="1052" xpos="-583.41" ypos="501.271" zpos="-282.558" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="KX342e31tUSRWyh0pSrKUA=="/>
+		<POI MapID="1052" xpos="-587.348" ypos="533.546" zpos="-253.404" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="12SsOvgx+EaNNou7IhbH/w=="/>
+		<POI MapID="1052" xpos="-579.333" ypos="501.635" zpos="-280.735" type="ct.hpt.hot.vb.mrk.cma.cspr" GUID="Z5SNbfgeIEepWdEE8BC4Kg=="/>
+		<POI MapID="1052" xpos="-587.829" ypos="533.591" zpos="-258.201" type="ct.hpt.hot.vb.mrk.guide.chest" GUID="eAaiUpX1E0ewpgkIUI5ujw=="
+		copy-message="Message copied." info="Interact to copy message: &#xA;Collect the chest (also a Mastery if it's your first time!), then drop!" copy="Collect the chest (also a Mastery if it's your first time!), then drop!"/>
+		<POI MapID="1052" xpos="-698.155" ypos="363.858" zpos="-368.965" type="ct.hpt.hot.vb.mrk.guide.nxm" GUID="sz/itX0rDUG0FeT1s3gm/g=="/>
+		<POI MapID="1052" xpos="-701.204" ypos="361.755" zpos="-346.851" type="ct.hpt.hot.vb.mrk.hp.bhp" GUID="mZJMvyPmTEqRo6Wbzz4LAA=="
+		info="Interact to copy message: &#xA;Fight! HP 11/11" copy-message="HP message copied." copy="Fight! HP 11/11"/>
+		<!--Continue Markers-->
+		<POI MapID="1052" xpos="865.798" ypos="431.368" zpos="46.7032" type="ct.hpt.hot.vb.mrk.guide.ct1" GUID="hFOaLQp88EWulAJFwikHJw=="/>
+		<POI MapID="1052" xpos="140.665" ypos="430.646" zpos="-39.6309" type="ct.hpt.hot.vb.mrk.guide.ct2" GUID="2mq/LskWUEan5jUlbjCA+g=="/>
+		<POI MapID="1052" xpos="-520.905" ypos="518.791" zpos="-290.539" type="ct.hpt.hot.vb.mrk.guide.ct3" GUID="4ObfD4mA1kOXsLl6azdw7A=="/>
+		<POI MapID="1052" xpos="-509.282" ypos="512.537" zpos="-279.676" type="ct.hpt.hot.vb.mrk.guide.ct4" GUID="DDCzP4h8rEaAbSGNPzSGOg=="/>
+		<POI MapID="1052" xpos="-531.131" ypos="512.813" zpos="-278.026" type="ct.hpt.hot.vb.mrk.guide.ct5" GUID="Ktvf0q10a0CodhFbNGyC5g=="/>
+		<!--Commander Markers to HP 1-->
+		<POI MapID="1052" xpos="858.566" ypos="431.983" zpos="48.8196" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="GRTi3SLVIU2k8KsXFpT7JA=="/>
+		<POI MapID="1052" xpos="768.076" ypos="387.274" zpos="33.4512" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="7DY7giBwJ0OZK6JAvcKRNw=="/>
+		<POI MapID="1052" xpos="693.139" ypos="277.533" zpos="2.4207" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="U8I3ByV70UqbDuVWB3hYMg=="/>
+		<POI MapID="1052" xpos="653.76" ypos="128.442" zpos="-57.8888" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="zv8gghmaA06vmabvtL0Jgw=="/>
+		<POI MapID="1052" xpos="601.467" ypos="58.6533" zpos="-51.7291" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="BV7T8bcTz0K3iH8ft18eQA=="/>
+		<!--Commander Markers to HP 2-->
+		<POI MapID="1052" xpos="865.586" ypos="430.569" zpos="46.0817" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="sVhOlgdwyEOufPHjuh8cAA=="/>
+		<POI MapID="1052" xpos="845.467" ypos="396.256" zpos="-5.87481" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="RyO4NatviUqKSGrIr2TB2w=="/>
+		<POI MapID="1052" xpos="831.05" ypos="376.67" zpos="-64.6228" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="ZZuzBMQ3C0iHptWEbm/YQQ=="/>
+		<POI MapID="1052" xpos="784.595" ypos="347.867" zpos="-115.289" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="8XyNhgWjN0+mFCph9JbOsw=="/>
+		<POI MapID="1052" xpos="746.479" ypos="341.917" zpos="-187.691" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="MBZvIHp6XUW4H8U+gFtSTg=="/>
+		<POI MapID="1052" xpos="688.464" ypos="350.608" zpos="-193.526" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="Orttmw51zE63sK7k/YRIBg=="/>
+		<POI MapID="1052" xpos="618.734" ypos="361.972" zpos="-193.133" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="+kVTr3IqOkGl8GWhp6dhWw=="/>
+		<POI MapID="1052" xpos="616.866" ypos="379.177" zpos="-263.523" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="oTR8Hm0bA0mv8ZOwd4kdxQ=="/>
+		<POI MapID="1052" xpos="648.714" ypos="393.787" zpos="-314.464" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="H67FGQ1tkkOH1WrivULJiQ=="/>
+		<POI MapID="1052" xpos="668.105" ypos="435.696" zpos="-382.438" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="WKDJA4ywdkq57Gy8fFKZjg=="/>
+		<POI MapID="1052" xpos="651.664" ypos="436.262" zpos="-427.296" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="Ir1JyjaGPEGxCt1Hst3Dcw=="/>
+		<POI MapID="1052" xpos="622.76" ypos="451.304" zpos="-436.048" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="eIgFt10Mekyoc22ZwXfg8Q=="/>
+		<!--Commander Markers to Pact Encampment Waypoint-->
+		<POI MapID="1052" xpos="606.617" ypos="456.245" zpos="-408.374" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="EMiMpOMZ50+QiIMRuy91UA=="/>
+		<POI MapID="1052" xpos="588.994" ypos="441.965" zpos="-372.373" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="4Csgq+/KX0qXQkwB0Ti3AQ=="/>
+		<POI MapID="1052" xpos="576.099" ypos="442.23" zpos="-363.259" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="pNmgrNMgrUqFtr27QbT7Uw=="/>
+		<POI MapID="1052" xpos="493.901" ypos="401.684" zpos="-329.285" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="w8WrS1gcskWenxBforT9ew=="/>
+		<POI MapID="1052" xpos="478.49" ypos="413.665" zpos="-351.644" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="0gUyzF4gr0yhILNjLea/dQ=="/>
+		<POI MapID="1052" xpos="445.844" ypos="432.748" zpos="-391.997" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="uuXlLXzqDUysgay169GIvA=="/>
+		<POI MapID="1052" xpos="375.169" ypos="434.74" zpos="-386.08" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="gUzuoVpL0ki3ZLUx8LKiAA=="/>
+		<POI MapID="1052" xpos="327.4" ypos="433.913" zpos="-358.656" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="cd0POmNSs0iy5Qla9V2L3Q=="/>
+		<POI MapID="1052" xpos="300.179" ypos="434.89" zpos="-325.74" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="pvTI+sH+FUG1F+MC6XLalg=="/>
+		<POI MapID="1052" xpos="257.428" ypos="416.377" zpos="-306.73" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="jTmgfh+Q1U6WN6y9zro05Q=="/>
+		<POI MapID="1052" xpos="202.274" ypos="396.929" zpos="-275.737" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="ts0UzGmfQEWIG2C8aPK5rQ=="/>
+		<POI MapID="1052" xpos="156.676" ypos="384.348" zpos="-237.403" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="AFCMQknxTEOgd9GDC3kz9A=="/>
+		<POI MapID="1052" xpos="115.154" ypos="387.759" zpos="-171.753" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="HqkjK4M7F0KjJZEJ9S4t7w=="/>
+		<POI MapID="1052" xpos="91.5761" ypos="392.078" zpos="-121.075" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="so/LDqV780SkeKUv6UqpkQ=="/>
+		<POI MapID="1052" xpos="155.581" ypos="415.848" zpos="-96.8163" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="JuuoQRawNU2H1WLKl+Q3eg=="/>
+		<POI MapID="1052" xpos="106.674" ypos="395.312" zpos="-97.8784" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="Uz3ukVLHx0acS7dWbj/sQA=="/>
+		<POI MapID="1052" xpos="192.037" ypos="415.661" zpos="-55.7" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="Oj4MSAUck0i1pTT2/cG4Tw=="/>
+		<POI MapID="1052" xpos="169.794" ypos="421.125" zpos="-13.0305" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="j4UFVLB6Fk+AbSTEg6F8iQ=="/>
+		
+		
+		
+		
+		
+		
 <!--Trails-->
 
-        <Trail type="" trailData="Data/catPack/Trails/.trl"/>
-		
+        <Trail type="ct.hpt.hot.vb.trl.mtr" trailData="Data/catPack/Trails/.trl"/>
+		<Trail type="ct.hpt.hot.vb.trl.atr" trailData="Data/catPack/Trails/.trl"/>
+		<Trail type="ct.hpt.hot.vb.trl.ctr" trailData="Data/catPack/Trails/.trl"/>
 		
 		
 	</POIs>
