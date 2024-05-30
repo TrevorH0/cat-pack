@@ -1,52 +1,113 @@
 <OverlayData>
 
 	<!--Main module-->
-	<MarkerCategory name="ct" displayName="-cat train">
+	<MarkerCategory name="ct" displayName="-cat train" defaulttoggle="0">
 		
 		<!--Hero Point Trains-->
-		<MarkerCategory name="hpt" displayName="Hero Point Trains">
+		<MarkerCategory name="hpt" displayName="Hero Point Trains" defaulttoggle="0">
 		
 			<!--Heart of Thorns-->
-			<MarkerCategory name="hot" displayName="Heart of Thorns">
+			<MarkerCategory name="hot" displayName="Heart of Thorns" fadeNear="2500" fadeFar="5000">
 			
 				<!--Verdant Brink-->
-				<MarkerCategory name="vb" displayName="Verdant Brink">
+				<MarkerCategory name="vb" displayName="Verdant Brink" MapId="1052">
 				
 	
 					<!--Marker icons-->
 					<MarkerCategory name="mrk" displayName="Markers">
 						<!--Hero Points-->
 						<MarkerCategory name="hp" displayName="Hero Points">
-							<MarkerCategory name="chp" displayName="Commune Hero Points" iconSize="2" iconFile="Data/catPack/Markers/communeHP.png"/>
+						
+							<MarkerCategory name="chp" displayName="Commune Hero Points" iconSize="2" iconFile="Data/catPack/Markers/communeHP.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message: Commune with the Hero Point!" 
+							copy-message="Message copied." copy="Commune with the Hero Point!"/>
+							
 							<MarkerCategory name="bhp" displayName="Battle Hero Points" iconSize="2" iconFile="Data/catPack/Markers/battleHP.png"/>
-							<MarkerCategory name="hotm" displayName="Mastery Points" iconFile="Data/catPack/Markers/hotMastery.png"/>
+							
+							<MarkerCategory name="hotm" displayName="Mastery Points" iconFile="Data/catPack/Markers/hotMastery.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message: &#xA;Mastery insight here -- grab it!"
+							copy-message="Message copied." copy="Mastery insight here -- grab it!"/>
+							
 						</MarkerCategory>
 						<!--Waypoints-->
-						<MarkerCategory name="wp" displayName="Waypoints" iconSize="1.9">
-							<MarkerCategory name="swpwp" displayName="Shipwreck Peak Waypoint" iconFile="Data/catPack/Markers/swpWP.png"/>
-							<MarkerCategory name="fafwp" displayName="Faren's Flyer Waypoint" iconFile="Data/catPack/Markers/fafWP.png"/>
-							<MarkerCategory name="penwp" displayName="Pact Encampment Waypoint" iconFile="Data/catPack/Markers/penWP.png"/>
+						<MarkerCategory name="wp" displayName="Waypoints" iconSize="1.9" triggerRange="2.5" inforange="2.5" mapVisibility="0" miniMapVisibility="0">
+						
+							<MarkerCategory name="swpwp" displayName="Shipwreck Peak Waypoint" iconFile="Data/catPack/Markers/swpWP.png"
+							info="Interact to copy message: &#xA;Waypoint to Shipwreck Peak after HP! [&BN4HAAA=]"
+							copy-message="Message copied." copy="Waypoint to Shipwreck Peak after HP! [&BN4HAAA=]"/>
+							
+							<MarkerCategory name="fafwp" displayName="Faren's Flyer Waypoint" iconFile="Data/catPack/Markers/fafWP.png"
+							info="Interact to copy message: &#xA;Waypoint to Faren's Flyer after HP! [&BO8HAAA=]"
+							copy-message="Message copied." copy="Waypoint to Faren's Flyer after HP! [&BO8HAAA=]"/>
+							
+							<MarkerCategory name="penwp" displayName="Pact Encampment Waypoint" iconFile="Data/catPack/Markers/penWP.png"
+							info="Interact to copy message: &#xA;Waypoint to Pact Encampment after HP! [&BAgIAAA=]"
+							copy-message="Message copied." copy="Waypoint to Pact Encampment after HP! [&BAgIAAA=]"/>
+							
 						</MarkerCategory>
 						<!--Guidance-->
-						<MarkerCategory name="guide" displayName="Guidance" iconSize="2">
-							<MarkerCategory name="trs" displayName="Train Start" iconFile="Data/catPack/Markers/hotTrainStart.png"/>
+						<MarkerCategory name="guide" displayName="Guidance" iconSize="2" miniMapVisibility="0">
+						
+							<MarkerCategory name="trs" displayName="Train Start" iconFile="Data/catPack/Markers/hotTrainStart.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message: &#xA;Let's get started! Each map will take about 25-35 minutes (~90 minutes overall), &#xA;and we'll have a 5 minute break at Tangled Depths (~60 minutes in)." 
+							copy-message="Message copied." copy="Let's get started! Each map will take about 25-35 minutes (~90 minutes overall), and we'll have a 5 minute break at Tangled Depths (~60 minutes in)."/>
+
 							<MarkerCategory name="ct1" displayName="Continue 1" iconFile="Data/catPack/Markers/continue1HP1.png"/>
 							<MarkerCategory name="ct2" displayName="Continue 2" iconFile="Data/catPack/Markers/continue2HP4.png"/>
 							<MarkerCategory name="ct3" displayName="Continue 3" iconFile="Data/catPack/Markers/continue3HP7.png"/>
 							<MarkerCategory name="ct4" displayName="Continue 4" iconFile="Data/catPack/Markers/continue4HP9.png"/>
 							<MarkerCategory name="ct5" displayName="Continue 5" iconFile="Data/catPack/Markers/continue5HP10.png"/>
-							<MarkerCategory name="nxm" displayName="Next Map" iconFile="Data/catPack/Markers/nextMap.png"/>
+							
+							<MarkerCategory name="nxm" displayName="Next Map" iconFile="Data/catPack/Markers/nextMap.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message:&#xA;Onto the next map: Auric Basin!"
+							copy-message="Message copied." copy="Onto the next map: Auric Basin!"/>
+							
 							<MarkerCategory name="dth" displayName="Death Icons" iconFile="Data/catPack/Markers/death.png"/>
+							<MarkerCategory name="chest" displayName="Chest Icons" iconFile="Data/catPack/Markers/chest.png"/>
+							
 						</MarkerCategory>
 						<!--Commander Assistant-->
-						<MarkerCategory name="cma" displayName="Commander Assistant">
-							<MarkerCategory name="pen" displayName="Portal Entre" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalEntre.png"/>
-							<MarkerCategory name="pex" displayName="Portal Exeunt" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalExeunt.png"/>
-							<MarkerCategory name="jpr" displayName="Jade Protocols" iconSize="1.6" iconFile="Data/catPack/Markers/jadeProto.png"/>
-							<MarkerCategory name="abu" displayName="Request Backup" iconSize="1.2" iconFile="Data/catPack/Markers/alertBackup.png"/>
-							<MarkerCategory name="cspr" displayName="Springer Icons" iconSize="1.5" iconFile="Data/catPack/Markers/canSpringer.png"/>
+						<MarkerCategory name="cma" displayName="Commander Assistant" defaulttoggle="0" mapVisibility="0" miniMapVisibility="0">
+						
+							<MarkerCategory name="pen" displayName="Portal Entre" alpha="0.65" iconSize="1.5" iconFile="Data/catPack/Markers/portalEntre.png"
+							info="Interact to copy message: &#xA;Portal placed, get ready!"
+							copy-message="Message copied." copy="Portal placed, get ready!"/>
+							
+							<MarkerCategory name="pex" displayName="Portal Exeunt" alpha="0.65" iconSize="1.5" iconFile="Data/catPack/Markers/portalExeunt.png"
+							info="Interact to copy message: &#xA;Interact! [&BtcnAAA=]"
+							copy-message="Message copied." copy="Interact! [&BtcnAAA=]"/>
+							
+							<MarkerCategory name="jpr" displayName="Jade Protocols" iconSize="1.6" iconFile="Data/catPack/Markers/jadeProto.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy Promenade Waypoint. &#xA;Grab 2-3 Jade Batteries and overcharge with the Jade Tech Offensive Protocol to help with Alacrity uptime. &#xA;Using Chronomancer's boosted Alacrity trait also helps with portal uptime."
+							copy-message="Message copied." copy="[&BMYMAAA=]"/>
+							
+							<MarkerCategory name="rbu" displayName="Request Backup" iconSize="1.2" iconFile="Data/catPack/Markers/alertBackup.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message: &#xA;If you'd like to help with portals, it's much appreciated! &#xA;And if you have a Skyscale or Springer, using that will help as well; &#xA;portals are 20-use!"
+							copy-message="Message copied." copy="If you'd like to help with portals, it's much appreciated! And if you have a Skyscale or Springer, using that will help as well; portals are 20-use!"/>
+							
+							<MarkerCategory name="tri1" displayName="Train Information 1" iconFile="Data/catPack/Markers/pinkCat.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message: &#xA;If you miss a Hero Point, say something so that I don't move on without you! &#xA;I have no way of knowing without communication."
+							copy-message="Message copied." copy="If you miss a Hero Point, say something so that I don't move on without you! I have no way of knowing without communication."/>
+							
+							<MarkerCategory name="tri2" displayName="Train Information 2" iconFile="Data/catPack/Markers/purpleCat.png"
+							triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message: &#xA;Furthermore, I can only wait so long if you get lost, as it would be unfair to the rest of the squad. &#xA;I apologize for this, so please reach out to me after the train to get any missed HPs."
+							copy-message="Message copied." copy="Furthermore, I can only wait so long if you get lost, as it would be unfair to the rest of the squad. I apologize for this, so please reach out to me after the train to get any missed HPs."/>
+							
+							<MarkerCategory name="cspr" displayName="Springer Icons" iconSize="1.5" iconFile="Data/catPack/Markers/canSpringer.png"
+							behavior="4" resetLength="10" triggerRange="2.5" inforange="2.5"
+							info="Interact to copy message: &#xA;Springer can be used here!"
+							copy-message="Message copied." copy="Springer can be used here!"/>
+							
 								<!--Commander Markers-->
-								<MarkerCategory name="cmm" displayName="Commander Markers" alpha="0.8">
+								<MarkerCategory name="cmm" displayName="Commander Markers" alpha="0.8" mapVisibility="0" miniMapVisibility="0">
 									<MarkerCategory name="carr" displayName="Arrow" iconFile="Data/catPack/Markers/commArrow.png"/>
 									<MarkerCategory name="ccir" displayName="Circle" iconFile="Data/catPack/Markers/commCircle.png"/>
 									<MarkerCategory name="chea" displayName="Heart" iconFile="Data/catPack/Markers/commHeart.png"/>
@@ -138,14 +199,23 @@
 
 	<POIs>
 	
-        <POI MapID="" xpos="" ypos="" zpos="" type="" GUID=""/>
-	
-
+		<POI MapID="1052" xpos="873.19" ypos="430.05" zpos="53.9332" type="ct.hpt.hot.vb.mrk.guide.trs" GUID="bZ2go/sjEk2S+08wBUD4Xw=="/>
+        <POI MapID="1052" xpos="878.247" ypos="429.161" zpos="49.4873" type="ct.hpt.hot.vb.mrk.cma.jpr" GUID="YboDLlogjkKJkAWBiwDmvg=="/>
+        <POI MapID="1052" xpos="876.309" ypos="428.579" zpos="59.6873" type="ct.hpt.hot.vb.mrk.cma.rbu" GUID="74om2s4s+kSod+DgCx8HAA=="/>
+        <POI MapID="1052" xpos="678.999" ypos="348.744" zpos="94.5214" type="ct.hpt.hot.vb.mrk.hp.hotm" GUID="blPqBE9wskqmUufXibX5RQ=="/>
+        <POI MapID="1052" xpos="589.705" ypos="47.826" zpos="-48.573" type="ct.hpt.hot.vb.mrk.hp.hotm" GUID="jPTINBIeGUudJoAPP85Jiw=="/>
+        <POI MapID="1052" xpos="579.397" ypos="13.8535" zpos="-29.8139" type="ct.hpt.hot.vb.mrk.hp.bhp" GUID="O1JrdLQ1iUqEHQjUMjGR5g=="
+        triggerRange="2.5" inforange="2.5" copy-message="Message copied." info="Interact to copy message: &#xA;Fight! HP 1/11" copy="Fight! HP 1/11"/>
+        <POI MapID="1052" xpos="574.302" ypos="13.4426" zpos="-29.8019" type="ct.hpt.hot.vb.mrk.cma.tri1" GUID="Yhn46TekXk2LGHYEtloLDw=="
+        behavior="4" resetLength="90"/>
+        <POI MapID="1052" xpos="574.302" ypos="13.4426" zpos="-29.8019" type="ct.hpt.hot.vb.mrk.cma.tri2" GUID="8YuRazbUTUipL5FaBLBUvg=="
+        behavior="4" resetLength="90" invertbehavior="1"/>
+        <POI MapID="1052" xpos="568.303" ypos="14.6855" zpos="-29.816" type="ct.hpt.hot.vb.mrk.wp.swpwp" GUID="x7mcMYav0kC/EZ9CkjPpKw=="/>
 
 
 <!--Trails-->
 
-        <Trail type="ct.hot.hothp.vb.trl.mtr" trailData="Data/catPack/Trails/.trl"/>
+        <Trail type="" trailData="Data/catPack/Trails/.trl"/>
 		
 		
 		
