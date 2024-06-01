@@ -15,107 +15,113 @@
 	
 					<!--Marker icons-->
 					<MarkerCategory name="mrk" displayName="Markers">
+					
 						<!--Hero Points-->
 						<MarkerCategory name="hp" displayName="Hero Points">
-						
+							<!--Commune-->
 							<MarkerCategory name="chp" displayName="Commune Hero Points" iconSize="2" iconFile="Data/catPack/Markers/communeHP.png"
 							triggerRange="2" inforange="2"/>
-							
+							<!--Battle-->
 							<MarkerCategory name="bhp" displayName="Battle Hero Points" iconSize="2" iconFile="Data/catPack/Markers/battleHP.png"
 							triggerRange="2" inforange="2"/>
-							
+							<!--Mastery-->
 							<MarkerCategory name="hotm" displayName="Mastery Points" iconFile="Data/catPack/Markers/hotMastery.png"
 							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Mastery insight here -- grab it!"
 							copy-message="Mastery message copied." copy="Mastery insight here -- grab it!"/>
-							
 						</MarkerCategory>
+						
 						<!--Waypoints-->
 						<MarkerCategory name="wp" displayName="Waypoints" iconSize="1.9" triggerRange="2" inforange="2" 
 						mapVisibility="0" miniMapVisibility="0" copy-message="Waypoint message copied.">
-						
+							<!--Shipwreck Peak-->
 							<MarkerCategory name="swpwp" displayName="Shipwreck Peak Waypoint" iconFile="Data/catPack/Markers/swpWP.png"
 							info="Interact to copy message: &#xA;Waypoint to Shipwreck Peak after HP! [&BN4HAAA=]"
 							copy="Waypoint to Shipwreck Peak after HP! [&BN4HAAA=]"/>
-							
+							<!--Faren's Flyer-->
 							<MarkerCategory name="fafwp" displayName="Faren's Flyer Waypoint" iconFile="Data/catPack/Markers/fafWP.png"
 							info="Interact to copy message: &#xA;Waypoint to Faren's Flyer after HP! [&BO8HAAA=]"
 							copy="Waypoint to Faren's Flyer after HP! [&BO8HAAA=]"/>
-							
+							<!--Pact Encampment-->
 							<MarkerCategory name="penwp" displayName="Pact Encampment Waypoint" iconFile="Data/catPack/Markers/penWP.png"
 							info="Interact to copy message: &#xA;Waypoint to Pact Encampment after HP! [&BAgIAAA=]"
 							copy="Waypoint to Pact Encampment after HP! [&BAgIAAA=]"/>
-							
 						</MarkerCategory>
+						
 						<!--Guidance-->
 						<MarkerCategory name="guide" displayName="Guidance" iconSize="2" miniMapVisibility="0">
-						
+							<!--Train Start-->
 							<MarkerCategory name="trs" displayName="Train Start" iconFile="Data/catPack/Markers/hotTrainStart.png"
 							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Let's get started! Each map will take about 25-35 minutes (~90 minutes overall), &#xA;and we'll have a 5 minute break at Tangled Depths (~60 minutes in)." 
 							copy-message="Train start message copied." copy="Let's get started! Each map will take about 25-35 minutes (~90 minutes overall), and we'll have a 5 minute break at Tangled Depths (~60 minutes in)."/>
-
+							<!--Continue Icons-->
 							<MarkerCategory name="ct1" displayName="Continue 1" iconFile="Data/catPack/Markers/continue1HP1.png"/>
 							<MarkerCategory name="ct2" displayName="Continue 2" iconFile="Data/catPack/Markers/continue2HP5.png"/>
 							<MarkerCategory name="ct3" displayName="Continue 3" iconFile="Data/catPack/Markers/continue3HP7.png"/>
 							<MarkerCategory name="ct4" displayName="Continue 4" iconFile="Data/catPack/Markers/continue4HP9.png"/>
 							<MarkerCategory name="ct5" displayName="Continue 5" iconFile="Data/catPack/Markers/continue5HP10.png"/>
-							
+							<!--Next Map-->
 							<MarkerCategory name="nxm" displayName="Next Map" iconFile="Data/catPack/Markers/nextMap.png"
 							triggerRange="2" inforange="2"
 							info="Interact to copy message:&#xA;Onto the next map: Auric Basin!"
 							copy-message="Next map message copied." copy="Onto the next map: Auric Basin!"/>
-							
+							<!--Death Icons-->
 							<MarkerCategory name="dth" displayName="Death Icons" mapVisibility="0" iconSize = "1" fadeFar="6500" iconFile="Data/catPack/Markers/death.png"/>
+							<!--Chest Icons-->
 							<MarkerCategory name="chest" displayName="Chest Icons" iconSize="0.7" iconFile="Data/catPack/Markers/chest.png"
 							behavior="4" resetLength="15" triggerRange="2" inforange="2"/>
 						</MarkerCategory>
+						
 						<!--Commander Assistant-->
 						<MarkerCategory name="cma" displayName="Commander Assistant" defaulttoggle="0" mapVisibility="0" miniMapVisibility="0">
-						
+							<!--Portal Entre-->
 							<MarkerCategory name="pen" displayName="Portal Entre" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalEntre.png"
 							info="Interact to copy message: &#xA;Portal placed, get ready!"
 							copy-message="Portal message copied." copy="Portal placed, get ready!"/>
-							
+							<!--Portal Exeunt-->
 							<MarkerCategory name="pex" displayName="Portal Exeunt" alpha="0.75" iconSize="1.5" iconFile="Data/catPack/Markers/portalExeunt.png"
 							info="Interact to copy message: &#xA;Interact! [&BtcnAAA=]"
 							copy-message="Portal message copied." copy="Interact! [&BtcnAAA=]"/>
-							
+							<!--Jade Protocols-->
 							<MarkerCategory name="jpr" displayName="Jade Protocols" iconSize="1.6" iconFile="Data/catPack/Markers/jadeProto.png"
 							triggerRange="2" inforange="2"
 							info="Interact to copy Promenade Waypoint. &#xA;Grab 2-3 Jade Batteries and overcharge with the Jade Tech Offensive Protocol to help with Alacrity uptime. &#xA;Using Chronomancer's boosted Alacrity trait also helps with portal uptime."
-							copy-message="JP waypoint message copied." copy="[&BMYMAAA=]"/>
-							
+							copy-message="Waypoint message copied." copy="[&BMYMAAA=]"/>
+							<!--Request Backup-->
 							<MarkerCategory name="rbu" displayName="Request Backup" iconSize="1.2" iconFile="Data/catPack/Markers/alertBackup.png"
 							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;If you'd like to help with portals, it's much appreciated! &#xA;And if you have a Skyscale or Springer, using that will help as well; &#xA;portals are 20-use!"
 							copy-message="Request backup message copied." copy="If you'd like to help with portals, it's much appreciated! And if you have a Skyscale or Springer, using that will help as well; portals are 20-use!"/>
-							
+							<!--Train Information 1-->
 							<MarkerCategory name="tri1" displayName="Train Information 1" iconFile="Data/catPack/Markers/pinkCat.png"
 							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;If you miss a Hero Point, say something so that I don't move on without you! &#xA;I have no way of knowing without communication."
 							copy-message="Train Info 1 message copied." copy="If you miss a Hero Point, say something so that I don't move on without you! I have no way of knowing without communication."/>
-							
+							<!--Train Information 2-->
 							<MarkerCategory name="tri2" displayName="Train Information 2" iconFile="Data/catPack/Markers/purpleCat.png"
 							triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Furthermore, I can only wait so long if you get lost, as it would be unfair to the rest of the squad. &#xA;I apologize for this, so please reach out to me after the train to get any missed HPs."
 							copy-message="Train Info 2 message copied." copy="Furthermore, I can only wait so long if you get lost, as it would be unfair to the rest of the squad. I apologize for this, so please reach out to me after the train to get any missed HPs."/>
-							
+							<!--Springer Icons-->
 							<MarkerCategory name="cspr" displayName="Springer Icons" iconSize="1.5" iconFile="Data/catPack/Markers/canSpringer.png"
 							behavior="4" resetLength="15" triggerRange="2" inforange="2"
 							info="Interact to copy message: &#xA;Springer can be used here!"
 							copy-message="Springer message copied." copy="Springer can be used here!"/>
-							
 								<!--Commander Markers-->
-								<MarkerCategory name="cmm" displayName="Commander Markers" mapVisibility="0" miniMapVisibility="0">
-									<MarkerCategory name="carr" displayName="Arrow" iconFile="Data/catPack/Markers/commArrow.png"/>
-									<MarkerCategory name="ccir" displayName="Circle" iconFile="Data/catPack/Markers/commCircle.png"/>
-									<MarkerCategory name="chea" displayName="Heart" iconFile="Data/catPack/Markers/commHeart.png"/>
-									<MarkerCategory name="csqu" displayName="Square" iconFile="Data/catPack/Markers/commSquare.png"/>
-									<MarkerCategory name="csta" displayName="Star" iconFile="Data/catPack/Markers/commStar.png"/>
-									<MarkerCategory name="cspi" displayName="Spiral" iconFile="Data/catPack/Markers/commSpiral.png"/>
-									<MarkerCategory name="ctri" displayName="Triangle" iconFile="Data/catPack/Markers/commTriangle.png"/>
-									<MarkerCategory name="cx" displayName="X" iconFile="Data/catPack/Markers/commX.png"/>
+								<MarkerCategory name="cmm" displayName="Commander Markers" alpha="0.8" mapVisibility="0" miniMapVisibility="0">
+									<MarkerCategory name="hp1" displayName="HP 1" defaulttoggle="1"/>
+									<MarkerCategory name="hp2" displayName="HP 2" defaulttoggle="0"/>
+									<MarkerCategory name="pewp" displayName="PE WP" defaulttoggle="0"/>
+									<MarkerCategory name="hp3" displayName="HP 3" defaulttoggle="0"/>
+									<MarkerCategory name="hp4" displayName="HP 4" defaulttoggle="0"/>
+									<MarkerCategory name="hp5" displayName="HP 5" defaulttoggle="0"/>
+									<MarkerCategory name="hp6" displayName="HP 6" defaulttoggle="0"/>
+									<MarkerCategory name="hp7" displayName="HP 7" defaulttoggle="0"/>
+									<MarkerCategory name="hp8" displayName="HP 8" defaulttoggle="0"/>
+									<MarkerCategory name="hp9" displayName="HP 9" defaulttoggle="0"/>
+									<MarkerCategory name="hp10" displayName="HP 10" defaulttoggle="0"/>
+									<MarkerCategory name="hp11" displayName="HP 11" defaulttoggle="0"/>
 								</MarkerCategory>
 						</MarkerCategory>
 					</MarkerCategory>
@@ -123,7 +129,7 @@
 					<!--Trail textures-->
 					<MarkerCategory name="trl" displayName="Trails">
 						<MarkerCategory name="mtr" displayName="Main Trail" texture="Data/catPack/Markers/trailBlue.png"/>
-						<MarkerCategory name="atr" displayName="Alternative Trail" texture="Data/catPack/Markers/trailAqua.png"/>
+						<MarkerCategory name="atr" displayName="Alternative Trail" texture="Data/catPack/Markers/trailAqua.png" ishidden="1"/>
 						<MarkerCategory name="ctr" displayName="Commander Trail" texture="Data/catPack/Markers/trailCatmander2.png"/>
 					</MarkerCategory>
 						
@@ -138,10 +144,11 @@
 
 
 
-<!--POIs-->
+
 
 	<POIs>
-		
+	
+		<!--HP Train > Heart of Thorns > Verdant Brink-->
 		<!--VB HP Train Start-->
 		<POI MapID="1052" xpos="873.19" ypos="430.05" zpos="53.9332" type="ct.hpt.hot.vb.mrk.guide.trs" GUID="bZ2go/sjEk2S+08wBUD4Xw=="/>
         <POI MapID="1052" xpos="878.247" ypos="429.161" zpos="49.4873" type="ct.hpt.hot.vb.mrk.cma.jpr" GUID="YboDLlogjkKJkAWBiwDmvg=="/>
@@ -163,6 +170,9 @@
 		<POI MapID="1052" xpos="614.148" ypos="456.874" zpos="-424.571" type="ct.hpt.hot.vb.mrk.hp.chp" GUID="sPzDqMlldEGK8lAWHiqDeA=="
 		info="Interact to copy message: &#xA;Commune! HP 2/11" copy-message="HP message copied." copy="Commune! HP 2/11"/>
 		<!--VB HP 3-->
+		<POI MapID="1052" xpos="137.611" ypos="429.16" zpos="-17.4564" type="ct.hpt.hot.vb.mrk.cma" iconFile="Data/catPack/Markers/pinkCat.png" GUID="d99RmSOn9Uald2a+lE85kg=="
+		triggerRange="2" inforange="2" info="Interact to copy message: &#xA;Grab the Pact Encampment Waypoint - we will need it!"
+		copy-message="WP message copied." copy="Grab the Pact Encampment Waypoint - we will need it!"/>
 		<POI MapID="1052" xpos="169.517" ypos="466.97" zpos="144.719" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="4XFRgpX+3kO1BeIqWZpqyg=="/>
 		<POI MapID="1052" xpos="100.293" ypos="425.018" zpos="136.402" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="Qjmyz+ILn0iulhXvd+uZyw=="/>
 		<POI MapID="1052" xpos="182.117" ypos="583.742" zpos="202.663" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="qoaOmVNLEUmZUiFszfkEyg=="/>
@@ -185,6 +195,9 @@
 		<POI MapID="1052" xpos="128.15" ypos="466.591" zpos="-125.766" type="ct.hpt.hot.vb.mrk.hp.hotm" GUID="v/GRdWOH0ECmmDK3hobnLQ=="
 		info="Interact to copy message: &#xA;Mastery insight here -- grab it and drop after!" copy-message="Mastery message copied." copy="Mastery insight here -- grab it and drop after!"/>
 		<POI MapID="1052" xpos="137.193" ypos="430.837" zpos="-43.44" type="ct.hpt.hot.vb.mrk.cma.cspr" GUID="azVMb0gknkykwu6XXvlUpA=="/>
+		<POI MapID="1052" xpos="-508.4544" ypos="508.7211" zpos="-270.4043" type="ct.hpt.hot.vb.mrk.cma" iconFile="Data/catPack/Markers/pinkCat.png" GUID="ctdqZ010y02FuxpbdfcXaA=="
+		triggerRange="2" inforange="2" info="Interact to copy message: &#xA;Grab the Faren Flyer's Waypoint - we will need it!"
+		copy-message="WP message copied." copy="Grab the Faren Flyer's Waypoint - we will need it!"/>
 		<!--VB HP 6-->
 		<POI MapID="1052" xpos="-440.772" ypos="583.226" zpos="-301.829" type="ct.hpt.hot.vb.mrk.cma.pen" GUID="tco3KCaRFUWfRdnXdukZ0g=="/>
 		<POI MapID="1052" xpos="-336.082" ypos="569.26" zpos="-249.62" type="ct.hpt.hot.vb.mrk.cma.pex" GUID="71bLYTPkYkWrU8M6OGt4lw=="/>
@@ -223,61 +236,198 @@
 		<POI MapID="1052" xpos="-698.155" ypos="363.858" zpos="-368.965" type="ct.hpt.hot.vb.mrk.guide.nxm" GUID="sz/itX0rDUG0FeT1s3gm/g=="/>
 		<POI MapID="1052" xpos="-701.204" ypos="361.755" zpos="-346.851" type="ct.hpt.hot.vb.mrk.hp.bhp" GUID="mZJMvyPmTEqRo6Wbzz4LAA=="
 		info="Interact to copy message: &#xA;Fight! HP 11/11" copy-message="HP message copied." copy="Fight! HP 11/11"/>
+		
 		<!--Continue Markers-->
 		<POI MapID="1052" xpos="865.798" ypos="431.368" zpos="46.7032" type="ct.hpt.hot.vb.mrk.guide.ct1" GUID="hFOaLQp88EWulAJFwikHJw=="/>
 		<POI MapID="1052" xpos="140.665" ypos="430.646" zpos="-39.6309" type="ct.hpt.hot.vb.mrk.guide.ct2" GUID="2mq/LskWUEan5jUlbjCA+g=="/>
 		<POI MapID="1052" xpos="-520.905" ypos="518.791" zpos="-290.539" type="ct.hpt.hot.vb.mrk.guide.ct3" GUID="4ObfD4mA1kOXsLl6azdw7A=="/>
 		<POI MapID="1052" xpos="-509.282" ypos="512.537" zpos="-279.676" type="ct.hpt.hot.vb.mrk.guide.ct4" GUID="DDCzP4h8rEaAbSGNPzSGOg=="/>
 		<POI MapID="1052" xpos="-531.131" ypos="512.813" zpos="-278.026" type="ct.hpt.hot.vb.mrk.guide.ct5" GUID="Ktvf0q10a0CodhFbNGyC5g=="/>
+		
 		<!--Commander Markers to HP 1-->
-		<POI MapID="1052" xpos="858.566" ypos="431.983" zpos="48.8196" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="GRTi3SLVIU2k8KsXFpT7JA=="/>
-		<POI MapID="1052" xpos="768.076" ypos="387.274" zpos="33.4512" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="7DY7giBwJ0OZK6JAvcKRNw=="/>
-		<POI MapID="1052" xpos="693.139" ypos="277.533" zpos="2.4207" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="U8I3ByV70UqbDuVWB3hYMg=="/>
-		<POI MapID="1052" xpos="653.76" ypos="128.442" zpos="-57.8888" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="zv8gghmaA06vmabvtL0Jgw=="/>
-		<POI MapID="1052" xpos="601.467" ypos="58.6533" zpos="-51.7291" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="BV7T8bcTz0K3iH8ft18eQA=="/>
+		<POI MapID="1052" xpos="858.566" ypos="431.983" zpos="48.8196" type="ct.hpt.hot.vb.mrk.cma.cmm.hp1" iconFile="Data/catPack/Markers/commArrow.png" GUID="GRTi3SLVIU2k8KsXFpT7JA=="/>
+		<POI MapID="1052" xpos="768.076" ypos="387.274" zpos="33.4512" type="ct.hpt.hot.vb.mrk.cma.cmm.hp1" iconFile="Data/catPack/Markers/commCircle.png" GUID="7DY7giBwJ0OZK6JAvcKRNw=="/>
+		<POI MapID="1052" xpos="693.139" ypos="277.533" zpos="2.4207" type="ct.hpt.hot.vb.mrk.cma.cmm.hp1" iconFile="Data/catPack/Markers/commHeart.png" GUID="U8I3ByV70UqbDuVWB3hYMg=="/>
+		<POI MapID="1052" xpos="653.76" ypos="128.442" zpos="-57.8888" type="ct.hpt.hot.vb.mrk.cma.cmm.hp1" iconFile="Data/catPack/Markers/commSquare.png" GUID="zv8gghmaA06vmabvtL0Jgw=="/>
+		<POI MapID="1052" xpos="601.467" ypos="58.6533" zpos="-51.7291" type="ct.hpt.hot.vb.mrk.cma.cmm.hp1" iconFile="Data/catPack/Markers/commStar.png" GUID="BV7T8bcTz0K3iH8ft18eQA=="/>
 		<!--Commander Markers to HP 2-->
-		<POI MapID="1052" xpos="865.586" ypos="430.569" zpos="46.0817" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="sVhOlgdwyEOufPHjuh8cAA=="/>
-		<POI MapID="1052" xpos="845.467" ypos="396.256" zpos="-5.87481" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="RyO4NatviUqKSGrIr2TB2w=="/>
-		<POI MapID="1052" xpos="831.05" ypos="376.67" zpos="-64.6228" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="ZZuzBMQ3C0iHptWEbm/YQQ=="/>
-		<POI MapID="1052" xpos="784.595" ypos="347.867" zpos="-115.289" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="8XyNhgWjN0+mFCph9JbOsw=="/>
-		<POI MapID="1052" xpos="746.479" ypos="341.917" zpos="-187.691" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="MBZvIHp6XUW4H8U+gFtSTg=="/>
-		<POI MapID="1052" xpos="688.464" ypos="350.608" zpos="-193.526" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="Orttmw51zE63sK7k/YRIBg=="/>
-		<POI MapID="1052" xpos="618.734" ypos="361.972" zpos="-193.133" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="+kVTr3IqOkGl8GWhp6dhWw=="/>
-		<POI MapID="1052" xpos="616.866" ypos="379.177" zpos="-263.523" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="oTR8Hm0bA0mv8ZOwd4kdxQ=="/>
-		<POI MapID="1052" xpos="648.714" ypos="393.787" zpos="-314.464" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="H67FGQ1tkkOH1WrivULJiQ=="/>
-		<POI MapID="1052" xpos="668.105" ypos="435.696" zpos="-382.438" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="WKDJA4ywdkq57Gy8fFKZjg=="/>
-		<POI MapID="1052" xpos="651.664" ypos="436.262" zpos="-427.296" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="Ir1JyjaGPEGxCt1Hst3Dcw=="/>
-		<POI MapID="1052" xpos="622.76" ypos="451.304" zpos="-436.048" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="eIgFt10Mekyoc22ZwXfg8Q=="/>
+		<POI MapID="1052" xpos="867.7929" ypos="430.1253" zpos="46.38851" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commArrow.png" GUID="sVhOlgdwyEOufPHjuh8cAA=="/>
+		<POI MapID="1052" xpos="845.467" ypos="396.256" zpos="-5.87481" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commCircle.png" GUID="RyO4NatviUqKSGrIr2TB2w=="/>
+		<POI MapID="1052" xpos="831.05" ypos="376.67" zpos="-64.6228" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commHeart.png" GUID="ZZuzBMQ3C0iHptWEbm/YQQ=="/>
+		<POI MapID="1052" xpos="784.595" ypos="347.867" zpos="-115.289" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commSquare.png" GUID="8XyNhgWjN0+mFCph9JbOsw=="/>
+		<POI MapID="1052" xpos="746.479" ypos="341.917" zpos="-187.691" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commStar.png" GUID="MBZvIHp6XUW4H8U+gFtSTg=="/>
+		<POI MapID="1052" xpos="688.464" ypos="350.608" zpos="-193.526" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commArrow.png" GUID="Orttmw51zE63sK7k/YRIBg=="/>
+		<POI MapID="1052" xpos="618.734" ypos="361.972" zpos="-193.133" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commCircle.png" GUID="+kVTr3IqOkGl8GWhp6dhWw=="/>
+		<POI MapID="1052" xpos="616.866" ypos="379.177" zpos="-263.523" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commHeart.png" GUID="oTR8Hm0bA0mv8ZOwd4kdxQ=="/>
+		<POI MapID="1052" xpos="648.714" ypos="393.787" zpos="-314.464" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commSquare.png" GUID="H67FGQ1tkkOH1WrivULJiQ=="/>
+		<POI MapID="1052" xpos="668.105" ypos="435.696" zpos="-382.438" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commStar.png" GUID="WKDJA4ywdkq57Gy8fFKZjg=="/>
+		<POI MapID="1052" xpos="651.664" ypos="436.262" zpos="-427.296" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commArrow.png" GUID="Ir1JyjaGPEGxCt1Hst3Dcw=="/>
+		<POI MapID="1052" xpos="622.76" ypos="451.304" zpos="-436.048" type="ct.hpt.hot.vb.mrk.cma.cmm.hp2" iconFile="Data/catPack/Markers/commCircle.png" GUID="eIgFt10Mekyoc22ZwXfg8Q=="/>
 		<!--Commander Markers to Pact Encampment Waypoint-->
-		<POI MapID="1052" xpos="606.617" ypos="456.245" zpos="-408.374" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="EMiMpOMZ50+QiIMRuy91UA=="/>
-		<POI MapID="1052" xpos="588.994" ypos="441.965" zpos="-372.373" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="4Csgq+/KX0qXQkwB0Ti3AQ=="/>
-		<POI MapID="1052" xpos="576.099" ypos="442.23" zpos="-363.259" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="pNmgrNMgrUqFtr27QbT7Uw=="/>
-		<POI MapID="1052" xpos="493.901" ypos="401.684" zpos="-329.285" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="w8WrS1gcskWenxBforT9ew=="/>
-		<POI MapID="1052" xpos="478.49" ypos="413.665" zpos="-351.644" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="0gUyzF4gr0yhILNjLea/dQ=="/>
-		<POI MapID="1052" xpos="445.844" ypos="432.748" zpos="-391.997" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="uuXlLXzqDUysgay169GIvA=="/>
-		<POI MapID="1052" xpos="375.169" ypos="434.74" zpos="-386.08" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="gUzuoVpL0ki3ZLUx8LKiAA=="/>
-		<POI MapID="1052" xpos="327.4" ypos="433.913" zpos="-358.656" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="cd0POmNSs0iy5Qla9V2L3Q=="/>
-		<POI MapID="1052" xpos="300.179" ypos="434.89" zpos="-325.74" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="pvTI+sH+FUG1F+MC6XLalg=="/>
-		<POI MapID="1052" xpos="257.428" ypos="416.377" zpos="-306.73" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="jTmgfh+Q1U6WN6y9zro05Q=="/>
-		<POI MapID="1052" xpos="202.274" ypos="396.929" zpos="-275.737" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="ts0UzGmfQEWIG2C8aPK5rQ=="/>
-		<POI MapID="1052" xpos="156.676" ypos="384.348" zpos="-237.403" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="AFCMQknxTEOgd9GDC3kz9A=="/>
-		<POI MapID="1052" xpos="115.154" ypos="387.759" zpos="-171.753" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="HqkjK4M7F0KjJZEJ9S4t7w=="/>
-		<POI MapID="1052" xpos="91.5761" ypos="392.078" zpos="-121.075" type="ct.hpt.hot.vb.mrk.cma.cmm.carr" GUID="so/LDqV780SkeKUv6UqpkQ=="/>
-		<POI MapID="1052" xpos="155.581" ypos="415.848" zpos="-96.8163" type="ct.hpt.hot.vb.mrk.cma.cmm.chea" GUID="JuuoQRawNU2H1WLKl+Q3eg=="/>
-		<POI MapID="1052" xpos="106.674" ypos="395.312" zpos="-97.8784" type="ct.hpt.hot.vb.mrk.cma.cmm.ccir" GUID="Uz3ukVLHx0acS7dWbj/sQA=="/>
-		<POI MapID="1052" xpos="192.037" ypos="415.661" zpos="-55.7" type="ct.hpt.hot.vb.mrk.cma.cmm.csqu" GUID="Oj4MSAUck0i1pTT2/cG4Tw=="/>
-		<POI MapID="1052" xpos="169.794" ypos="421.125" zpos="-13.0305" type="ct.hpt.hot.vb.mrk.cma.cmm.csta" GUID="j4UFVLB6Fk+AbSTEg6F8iQ=="/>
+		<POI MapID="1052" xpos="606.617" ypos="456.245" zpos="-408.374" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commHeart.png" GUID="EMiMpOMZ50+QiIMRuy91UA=="/>
+		<POI MapID="1052" xpos="588.994" ypos="441.965" zpos="-372.373" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commSquare.png" GUID="4Csgq+/KX0qXQkwB0Ti3AQ=="/>
+		<POI MapID="1052" xpos="576.099" ypos="442.23" zpos="-363.259" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commStar.png" GUID="pNmgrNMgrUqFtr27QbT7Uw=="/>
+		<POI MapID="1052" xpos="493.901" ypos="401.684" zpos="-329.285" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commArrow.png" GUID="w8WrS1gcskWenxBforT9ew=="/>
+		<POI MapID="1052" xpos="478.49" ypos="413.665" zpos="-351.644" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commCircle.png" GUID="0gUyzF4gr0yhILNjLea/dQ=="/>
+		<POI MapID="1052" xpos="445.844" ypos="432.748" zpos="-391.997" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commHeart.png" GUID="uuXlLXzqDUysgay169GIvA=="/>
+		<POI MapID="1052" xpos="375.169" ypos="434.74" zpos="-386.08" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commSquare.png" GUID="gUzuoVpL0ki3ZLUx8LKiAA=="/>
+		<POI MapID="1052" xpos="327.4" ypos="433.913" zpos="-358.656" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commStar.png" GUID="cd0POmNSs0iy5Qla9V2L3Q=="/>
+		<POI MapID="1052" xpos="300.179" ypos="434.89" zpos="-325.74" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commArrow.png" GUID="pvTI+sH+FUG1F+MC6XLalg=="/>
+		<POI MapID="1052" xpos="257.428" ypos="416.377" zpos="-306.73" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commCircle.png" GUID="jTmgfh+Q1U6WN6y9zro05Q=="/>
+		<POI MapID="1052" xpos="202.274" ypos="396.929" zpos="-275.737" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commHeart.png" GUID="ts0UzGmfQEWIG2C8aPK5rQ=="/>
+		<POI MapID="1052" xpos="156.676" ypos="384.348" zpos="-237.403" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commSquare.png" GUID="AFCMQknxTEOgd9GDC3kz9A=="/>
+		<POI MapID="1052" xpos="115.154" ypos="387.759" zpos="-171.753" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commStar.png" GUID="HqkjK4M7F0KjJZEJ9S4t7w=="/>
+		<POI MapID="1052" xpos="91.5761" ypos="392.078" zpos="-121.075" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commArrow.png" GUID="so/LDqV780SkeKUv6UqpkQ=="/>
+		<POI MapID="1052" xpos="106.674" ypos="395.312" zpos="-97.8784" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commCircle.png" GUID="Uz3ukVLHx0acS7dWbj/sQA=="/>
+		<POI MapID="1052" xpos="155.581" ypos="415.848" zpos="-96.8163" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commHeart.png" GUID="JuuoQRawNU2H1WLKl+Q3eg=="/>
+		<POI MapID="1052" xpos="192.037" ypos="415.661" zpos="-55.7" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commSquare.png" GUID="Oj4MSAUck0i1pTT2/cG4Tw=="/>
+		<POI MapID="1052" xpos="169.794" ypos="421.125" zpos="-13.0305" type="ct.hpt.hot.vb.mrk.cma.cmm.pewp" iconFile="Data/catPack/Markers/commStar.png" GUID="j4UFVLB6Fk+AbSTEg6F8iQ=="/>
+		<!--Commander Markers to HP 3-->
+		<POI MapID="1052" xpos="148.848" ypos="427.386" zpos="-15.9961" type="ct.hpt.hot.vb.mrk.cma.cmm.hp3" iconFile="Data/catPack/Markers/commArrow.png" GUID="X6gmgxzqHU6ayk/T1wm2NA=="/>
+		<POI MapID="1052" xpos="184.991" ypos="419.114" zpos="-12.2734" type="ct.hpt.hot.vb.mrk.cma.cmm.hp3" iconFile="Data/catPack/Markers/commCircle.png" GUID="tSiO79Ou6UqEnEyl87Whuw=="/>
+		<POI MapID="1052" xpos="177.96" ypos="419.306" zpos="31.3443" type="ct.hpt.hot.vb.mrk.cma.cmm.hp3" iconFile="Data/catPack/Markers/commHeart.png" GUID="tBjGydExZk+1uucv2V2q+w=="/>
+		<POI MapID="1052" xpos="153.57" ypos="419.499" zpos="52.7569" type="ct.hpt.hot.vb.mrk.cma.cmm.hp3" iconFile="Data/catPack/Markers/commSquare.png" GUID="BSYlquL/jEyJmG7rJx1ifg=="/>
+		<POI MapID="1052" xpos="122.943" ypos="412.583" zpos="86.3741" type="ct.hpt.hot.vb.mrk.cma.cmm.hp3" iconFile="Data/catPack/Markers/commStar.png" GUID="+sH6r1SsKkCx4cRS6q+uHQ=="/>
+		<POI MapID="1052" xpos="103.062" ypos="418.83" zpos="118.055" type="ct.hpt.hot.vb.mrk.cma.cmm.hp3" iconFile="Data/catPack/Markers/commArrow.png" GUID="TAM+vWqdF0Ct5tPRSVwWog=="/>
+		<!--Commander Markers to HP 4-->
+		<POI MapID="1052" xpos="218.351" ypos="583.727" zpos="234.037" type="ct.hpt.hot.vb.mrk.cma.cmm.hp4" iconFile="Data/catPack/Markers/commArrow.png" GUID="SqjeYSoZ206+eW+nrI3lkQ=="/>
+		<POI MapID="1052" xpos="263.553" ypos="546.742" zpos="257.615" type="ct.hpt.hot.vb.mrk.cma.cmm.hp4" iconFile="Data/catPack/Markers/commCircle.png" GUID="7/o/WCCK1EyH3WG3ThTh6A=="/>
+		<POI MapID="1052" xpos="368.235" ypos="454.052" zpos="294.855" type="ct.hpt.hot.vb.mrk.cma.cmm.hp4" iconFile="Data/catPack/Markers/commHeart.png" GUID="CDFQ2FC2q0yhSMSVXGsc2A=="/>
+		<POI MapID="1052" xpos="435.704" ypos="446.278" zpos="311.787" type="ct.hpt.hot.vb.mrk.cma.cmm.hp4" iconFile="Data/catPack/Markers/commSquare.png" GUID="kOeqmpjtkkGV7CoCZ0oHCA=="/>
+		<POI MapID="1052" xpos="486.642" ypos="449.01" zpos="306.333" type="ct.hpt.hot.vb.mrk.cma.cmm.hp4" iconFile="Data/catPack/Markers/commStar.png" GUID="GE4fNdLjN06itZb+j9MbYQ=="/>
+		<!--Commander Markers to HP 5-->
+		<POI MapID="1052" xpos="532.388" ypos="413.573" zpos="293.977" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commCircle.png" GUID="hBEceyY0H02g5rWwh+lbew=="/>
+		<POI MapID="1052" xpos="548.86" ypos="410.348" zpos="273.835" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commArrow.png" GUID="u83crAvY502pnbYJLKJZpg=="/>
+		<POI MapID="1052" xpos="561.52" ypos="364.332" zpos="261.414" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commHeart.png" GUID="wCYAiNgDfUWcvNpPhBEm9w=="/>
+		<POI MapID="1052" xpos="624.7" ypos="365.95" zpos="259.29" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commSquare.png" GUID="58MelcTJ1kKwGQ2qDxbPhg=="/>
+		<POI MapID="1052" xpos="689.544" ypos="367.024" zpos="263.1" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commStar.png" GUID="hg7Fy7KUq0+WFPaPqW5PeQ=="/>
+		<POI MapID="1052" xpos="692.967" ypos="368.364" zpos="211.484" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commArrow.png" GUID="8/MDd6qxekSZx5Rt+jD9rw=="/>
+		<POI MapID="1052" xpos="693.589" ypos="368.803" zpos="162.296" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commCircle.png" GUID="TV+dg5InDUqTR0jBZM6hSA=="/>
+		<POI MapID="1052" xpos="681.82" ypos="366.679" zpos="126.673" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commHeart.png" GUID="pj8oIKUaqkyHVAd2Sf2v0w=="/>
+		<POI MapID="1052" xpos="677.114" ypos="348.542" zpos="97.1638" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commSquare.png" GUID="E7mokkv3PEK9QoyHqoq45Q=="/>
+		<POI MapID="1052" xpos="626.699" ypos="325.33" zpos="102.238" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commStar.png" GUID="C7gLms13aUGtUo00l2NoWA=="/>
+		<POI MapID="1052" xpos="553.527" ypos="329.099" zpos="100.38" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commArrow.png" GUID="IbB9mQlfc0W2gbMqyaFzGw=="/>
+		<POI MapID="1052" xpos="461.486" ypos="329.36" zpos="87.6235" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commCircle.png" GUID="DcSpjxIpykqRYsFKZgyWbQ=="/>
+		<POI MapID="1052" xpos="385.002" ypos="341.558" zpos="82.9417" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commHeart.png" GUID="ni0ro1DZEUyLl+8+f3vIQg=="/>
+		<POI MapID="1052" xpos="347.841" ypos="345.839" zpos="134.91" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commSquare.png" GUID="PceUhSoj+E2ylOFOvlFTYQ=="/>
+		<POI MapID="1052" xpos="340.063" ypos="164.507" zpos="137.307" type="ct.hpt.hot.vb.mrk.cma.cmm.hp5" iconFile="Data/catPack/Markers/commStar.png" GUID="veegzlMDA0Sv28qOA+B47g=="/>
+		<!--Commander Markers to HP 6-->
+		<POI MapID="1052" xpos="140.925" ypos="429.997" zpos="-36.1633" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commArrow.png" GUID="ZV9aw4fm+Equ9jx2euzHPQ=="/>
+		<POI MapID="1052" xpos="78.9071" ypos="390.025" zpos="-159.799" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commCircle.png" GUID="EE7SXYuGEU+/q+x0ylJ0vA=="/>
+		<POI MapID="1052" xpos="14.2129" ypos="401.716" zpos="-187.885" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commHeart.png" GUID="kRgGqgJ6JU+swDuWE6XiHQ=="/>
+		<POI MapID="1052" xpos="-44.9061" ypos="411.884" zpos="-200.852" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commSquare.png" GUID="hbETKh3zAUGfb2EH2l5LeQ=="/>
+		<POI MapID="1052" xpos="-119.906" ypos="436.371" zpos="-185.634" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commStar.png" GUID="WIGfDytKlkiT7fTa7NnCDA=="/>
+		<POI MapID="1052" xpos="-148.964" ypos="438.596" zpos="-185.658" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commArrow.png" GUID="D6SPVeuae0Wc5mcTSLHBCA=="/>
+		<POI MapID="1052" xpos="-166.179" ypos="439.413" zpos="-252.527" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commCircle.png" GUID="HXtrS/ryukGOxzzaOivC7A=="/>
+		<POI MapID="1052" xpos="-174.511" ypos="436.261" zpos="-287.321" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commHeart.png" GUID="H0FIxJnSTkW/jPFZ7nRdGQ=="/>
+		<POI MapID="1052" xpos="-204.752" ypos="417.407" zpos="-312.352" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commSquare.png" GUID="yms7o4WT/E2ZGvkYTXv/Sw=="/>
+		<POI MapID="1052" xpos="-258.592" ypos="399.428" zpos="-290.83" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commStar.png" GUID="TtAJGRidk0u3cSUo0scMVA=="/>
+		<POI MapID="1052" xpos="-332.775" ypos="402.038" zpos="-265.305" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commArrow.png" GUID="uP6SlG073UCM9K1bpJC62Q=="/>
+		<POI MapID="1052" xpos="-369.265" ypos="420.733" zpos="-216.311" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commCircle.png" GUID="WWuCn6U6rE24wVL0mZkpMg=="/>
+		<POI MapID="1052" xpos="-402.939" ypos="441.863" zpos="-167.659" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commHeart.png" GUID="glHpsL+QOUS3Z72nJNUblA=="/>
+		<POI MapID="1052" xpos="-441.822" ypos="458.844" zpos="-175.958" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commSquare.png" GUID="1xDg0l8YHEK1A4IVeB0L1Q=="/>
+		<POI MapID="1052" xpos="-503.077" ypos="483.24" zpos="-195.687" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commStar.png" GUID="4p+Z9T64BEah1afSV8aKeA=="/>
+		<POI MapID="1052" xpos="-517.502" ypos="497.315" zpos="-227.163" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commArrow.png" GUID="fgSZ34QPIkC/9v+5Zc7a9Q=="/>
+		<POI MapID="1052" xpos="-502.468" ypos="506.26" zpos="-266.237" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commCircle.png" GUID="ilHsuXwrkUSksECQeefRow=="/>
+		<POI MapID="1052" xpos="-524.118" ypos="516.631" zpos="-286.427" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commHeart.png" GUID="VIi8Yg6/zEWv+r078obRhw=="/>
+		<POI MapID="1052" xpos="-516.866" ypos="528.431" zpos="-314.15" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commSquare.png" GUID="5PCjKhlVDUGedgMgGDD66A=="/>
+		<POI MapID="1052" xpos="-481.57" ypos="551.337" zpos="-321.224" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commStar.png" GUID="Eybi9LztX0uhy8h0qgHQPw=="/>
+		<POI MapID="1052" xpos="-455.796" ypos="571.406" zpos="-314.503" type="ct.hpt.hot.vb.mrk.cma.cmm.hp6" iconFile="Data/catPack/Markers/commArrow.png" GUID="MZemxmn/u066R+KcqaQmzw=="/>
+		<!--Commander Markers to HP 7-->
+		<POI MapID="1052" xpos="-309.664" ypos="590.765" zpos="-228.294" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commCircle.png" GUID="3Jw3Ti3sWEqkzyeQLrVVkw=="/>
+		<POI MapID="1052" xpos="-294.693" ypos="598.409" zpos="-224.328" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commHeart.png" GUID="rceeGo3UAUCKr0lVDmlodQ=="/>
+		<POI MapID="1052" xpos="-146.183" ypos="439.771" zpos="-195.776" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commSquare.png" GUID="IMdErdB7yUONq3L9M9ZQJQ=="/>
+		<POI MapID="1052" xpos="-135.515" ypos="438.014" zpos="-169.334" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commStar.png" GUID="FlQHEoC5mkuYzo/4oGGSBw=="/>
+		<POI MapID="1052" xpos="-129.858" ypos="434.356" zpos="-146.667" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commArrow.png" GUID="zWKEMxwoe0iJlLG8f7UnWg=="/>
+		<POI MapID="1052" xpos="-125.563" ypos="414.734" zpos="-137.817" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commCircle.png" GUID="UhI3ZSxqPkCnwjFaXaR7cg=="/>
+		<POI MapID="1052" xpos="-119.647" ypos="362.169" zpos="-125.156" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commHeart.png" GUID="W9U/Zj3rKEG0ED3WE0oHGQ=="/>
+		<POI MapID="1052" xpos="-105.2" ypos="42.3569" zpos="-135.299" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commSquare.png" GUID="mT+SFtPFA0SuwwKMs+HGVA=="/>
+		<POI MapID="1052" xpos="-86.0578" ypos="28.6344" zpos="-134.784" type="ct.hpt.hot.vb.mrk.cma.cmm.hp7" iconFile="Data/catPack/Markers/commStar.png" GUID="MtAmteNyMU+m7cvAHfoaSA=="/>
+		<!--Commander Markers to HP 8-->
+		<POI MapID="1052" xpos="-521.622" ypos="518.971" zpos="-291.989" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commArrow.png" GUID="+pchIY9n8Uy5eJVPyFggMA=="/>
+		<POI MapID="1052" xpos="-511.738" ypos="531.36" zpos="-316.934" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commCircle.png" GUID="nD6peBPx80ylhtqfh9VkNQ=="/>
+		<POI MapID="1052" xpos="-480.256" ypos="552.026" zpos="-320.076" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commHeart.png" GUID="TR10tdm/eUGgA8qiKfcyFA=="/>
+		<POI MapID="1052" xpos="-453.308" ypos="574.942" zpos="-310.672" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commSquare.png" GUID="grb5PzIB0kuXMLjtBXStnw=="/>
+		<POI MapID="1052" xpos="-447.612" ypos="589.605" zpos="-293.041" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commStar.png" GUID="a/ACRRY8QUuAZKJ9fnl5YA=="/>
+		<POI MapID="1052" xpos="-475.67" ypos="595.385" zpos="-290.089" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commArrow.png" GUID="zDXOFvDy3UaemA0LEcGAWQ=="/>
+		<POI MapID="1052" xpos="-500.034" ypos="595.627" zpos="-296.398" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commCircle.png" GUID="nmBLhL4A+kWrmj9/Cgp+7g=="/>
+		<POI MapID="1052" xpos="-512.663" ypos="596.208" zpos="-264.502" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commHeart.png" GUID="/HCxLw7Nr0aogl7f+ENw0w=="/>
+		<POI MapID="1052" xpos="-539.555" ypos="614.87" zpos="-225.685" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commSquare.png" GUID="gROGBA0oyEWOiftM7+lycQ=="/>
+		<POI MapID="1052" xpos="-559.407" ypos="620.324" zpos="-198.404" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commStar.png" GUID="BIK6DNbGVkSUHkqSUaoZeg=="/>
+		<POI MapID="1052" xpos="-575.744" ypos="601.835" zpos="-169.1" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commArrow.png" GUID="fCowoCV3Y0SvKhCApSzafA=="/>
+		<POI MapID="1052" xpos="-645.277" ypos="559.698" zpos="-139.948" type="ct.hpt.hot.vb.mrk.cma.cmm.hp8" iconFile="Data/catPack/Markers/commCircle.png" GUID="zkC3ahhJfU+J7iwVM0bCog=="/>
+		<!--Commander Markers to HP 9-->
+		<POI MapID="1052" xpos="-694" ypos="576.267" zpos="-88.5085" type="ct.hpt.hot.vb.mrk.cma.cmm.hp9" iconFile="Data/catPack/Markers/commHeart.png" GUID="qtab81c9+0K/D9czbCTwkg=="/>
+		<POI MapID="1052" xpos="-717.205" ypos="464.198" zpos="-9.85955" type="ct.hpt.hot.vb.mrk.cma.cmm.hp9" iconFile="Data/catPack/Markers/commSquare.png" GUID="ExZld8KW8USdgxIp1Wvtyw=="/>
+		<POI MapID="1052" xpos="-708.3" ypos="468.391" zpos="57.9238" type="ct.hpt.hot.vb.mrk.cma.cmm.hp9" iconFile="Data/catPack/Markers/commStar.png" GUID="in5DPYQ4SkCtigf6YEV3MA=="/>
+		<POI MapID="1052" xpos="-710.336" ypos="486.43" zpos="80.1848" type="ct.hpt.hot.vb.mrk.cma.cmm.hp9" iconFile="Data/catPack/Markers/commArrow.png" GUID="ud3xfOAPSUy4KNXDNguCfw=="/>
+		<POI MapID="1052" xpos="-669.185" ypos="501.61" zpos="80.0025" type="ct.hpt.hot.vb.mrk.cma.cmm.hp9" iconFile="Data/catPack/Markers/commCircle.png" GUID="lOSTp6W+mUmlx2+ShhD5mw=="/>
+		<POI MapID="1052" xpos="-633.265" ypos="504.454" zpos="105.956" type="ct.hpt.hot.vb.mrk.cma.cmm.hp9" iconFile="Data/catPack/Markers/commHeart.png" GUID="KMn0afcqikioXSWqZwqqCQ=="/>
+		<!--Commander Markers to HP 10-->
+		<POI MapID="1052" xpos="-508.065" ypos="511.554" zpos="-278.271" type="ct.hpt.hot.vb.mrk.cma.cmm.hp10" iconFile="Data/catPack/Markers/commArrow.png" GUID="YuPrFbVJPUy2NcB6BW+r0w=="/>
+		<POI MapID="1052" xpos="-467.709" ypos="497.149" zpos="-228.157" type="ct.hpt.hot.vb.mrk.cma.cmm.hp10" iconFile="Data/catPack/Markers/commCircle.png" GUID="d8MjNqqLuke3JOGlzmdnMA=="/>
+		<POI MapID="1052" xpos="-436.233" ypos="490.427" zpos="-182.766" type="ct.hpt.hot.vb.mrk.cma.cmm.hp10" iconFile="Data/catPack/Markers/commHeart.png" GUID="URYAK3vZR02EGe7jtgG2cg=="/>
+		<POI MapID="1052" xpos="-440.034" ypos="402.244" zpos="-104.244" type="ct.hpt.hot.vb.mrk.cma.cmm.hp10" iconFile="Data/catPack/Markers/commSquare.png" GUID="HoS8P1a1wUGIvRoW/IQSDg=="/>
+		<POI MapID="1052" xpos="-429.517" ypos="178.26" zpos="-134.501" type="ct.hpt.hot.vb.mrk.cma.cmm.hp10" iconFile="Data/catPack/Markers/commStar.png" GUID="psIwCIdp4EyJfw9dfEPlWw=="/>
+		<POI MapID="1052" xpos="-401.04" ypos="147.86" zpos="-116.708" type="ct.hpt.hot.vb.mrk.cma.cmm.hp10" iconFile="Data/catPack/Markers/commArrow.png" GUID="3jUz73fBJkKPgBTnerjWWg=="/>
+		<!--Commander Markers to HP 11-->
+		<POI MapID="1052" xpos="-529.667" ypos="512.739" zpos="-277.969" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commArrow.png" GUID="RVDckHO5tEqrpCNPws3rxg=="/>
+		<POI MapID="1052" xpos="-561.023" ypos="497.684" zpos="-281.302" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commCircle.png" GUID="v7DZBR3spkecbzeQMrVGGA=="/>
+		<POI MapID="1052" xpos="-591.514" ypos="533.735" zpos="-262.521" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commHeart.png" GUID="ssdj0doJOU2g4U4p3JgPxQ=="/>
+		<POI MapID="1052" xpos="-611.583" ypos="503.642" zpos="-289.457" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commSquare.png" GUID="dzYYGAERM0qLckFwwJZqNQ=="/>
+		<POI MapID="1052" xpos="-632.849" ypos="501.769" zpos="-312.044" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commStar.png" GUID="LAkoHfxUEE2kCq3/dSQYrQ=="/>
+		<POI MapID="1052" xpos="-686.881" ypos="361.834" zpos="-351.451" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commArrow.png" GUID="DGc9f2ijwUq0tNb6Lx0g4A=="/>
+		<POI MapID="1052" xpos="-697.321" ypos="363.441" zpos="-370.388" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commCircle.png" GUID="03ZtuEAmMEOmVF3o0R9BYw=="/>
+		<POI MapID="1052" xpos="-682.992" ypos="369.882" zpos="-383.488" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commHeart.png" GUID="DFiAerPmZke+uzJDss+2DA=="/>
+		<POI MapID="1052" xpos="-703.546" ypos="370.381" zpos="-414.155" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commSquare.png" GUID="pUzJssFfBUmKhi3rK0Z1Nw=="/>
+		<POI MapID="1052" xpos="-779.555" ypos="379.099" zpos="-400.899" type="ct.hpt.hot.vb.mrk.cma.cmm.hp11" iconFile="Data/catPack/Markers/commStar.png" GUID="V/1kRBn7e0KFKSIa+bAQxA=="/>
 		
-		
-		
-		
+		<!--Commander Marker Hide/Show--> 
+		<!--  Template: <POI MapID="1052" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" showhide="" GUID=""/>  -->
+		<!--Hide HP 1, Show HP 2-->
+		<POI MapID="1052" xpos="574.1268" ypos="13.11835" zpos="-31.21766" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp1" GUID="kDkcFHv1lkCxaHi21sDWDg=="/>
+		<POI MapID="1052" xpos="574.1268" ypos="13.11835" zpos="-31.21766" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp2" GUID="1lRilLgXGkObasBUDWMt6A=="/>
+		<!--Hide HP 2, Show PE WP-->
+		<POI MapID="1052" xpos="614.7971" ypos="456.2415" zpos="-428.2246" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp2" GUID="ITacqEnmVku1ZoeI3NYQIw=="/>
+		<POI MapID="1052" xpos="614.7971" ypos="456.2415" zpos="-428.2246" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.pewp" GUID="ha6UY+yBxE6gQgM0qWkINg=="/>
+		<!--Hide PE WP, Show HP 3-->
+		<POI MapID="1052" xpos="135.8888" ypos="429.5977" zpos="-24.93909" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="8" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.pewp" GUID="5s0mVguKCE2e2w9Z/vLGXA=="/>
+		<POI MapID="1052" xpos="140.3137" ypos="428.4463" zpos="-16.16325" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="5" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp3" GUID="Gde0JBkb2ESXGgsqeLy1xA=="/>
+		<!--Hide HP 3, Show HP 4-->
+		<POI MapID="1052" xpos="193.9342" ypos="583.2748" zpos="213.2837" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp3" GUID="6Va58FzJkkSNSojeEN+8NA=="/>
+		<POI MapID="1052" xpos="193.9342" ypos="583.2748" zpos="213.2837" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp4" GUID="3qexOTyF/kKMypW54zCI+Q=="/>
+		<!--Hide HP 4, Show HP 5-->
+		<POI MapID="1052" xpos="514.9174" ypos="418.2033" zpos="305.4705" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp4" GUID="tWTGzwpFV0WJA/Uq0OIvdA=="/>
+		<POI MapID="1052" xpos="514.9174" ypos="418.2033" zpos="305.4705" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp5" GUID="k7OuOXoYI0Kcae6kqPWS1Q=="/>
+		<!--Hide HP 5, Show HP 6-->
+		<POI MapID="1052" xpos="350.7366" ypos="164.5426" zpos="137.6973" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp5" GUID="3Rc++32F20igrTGBvmMmng=="/>
+		<POI MapID="1052" xpos="350.7366" ypos="164.5426" zpos="137.6973" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp6" GUID="EpilzeU+LEy36P6YABdAoQ=="/>
+		<!--Hide HP 6, Show HP 7-->
+		<POI MapID="1052" xpos="-325.8621" ypos="579.6246" zpos="-236.4973" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp6" GUID="r/A2gna0c0a2iCuQfqbEWg=="/>
+		<POI MapID="1052" xpos="-325.8621" ypos="579.6246" zpos="-236.4973" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp7" GUID="INSFDuwWU0GVpCHqezbVvQ=="/>
+		<!--Hide HP 7, Show HP 8-->
+		<POI MapID="1052" xpos="-80.5778" ypos="27.1731" zpos="-133.7332" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp7" GUID="ik0nhjUAb06JSSGBDEUygw=="/>
+		<POI MapID="1052" xpos="-80.5778" ypos="27.1731" zpos="-133.7332" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp8" GUID="ULcbAiFHsECT9Hxt4fGPmA=="/>
+		<!--Hide HP 8, Show HP 9-->
+		<POI MapID="1052" xpos="-661.5948" ypos="559.7166" zpos="-134.9404" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="12" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp8" GUID="4TAyLy6AvEe68Mv8/8UigA=="/>
+		<POI MapID="1052" xpos="-661.5948" ypos="559.7166" zpos="-134.9404" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="12" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp9" GUID="M/0Qka+0C0qa1DPyh2OFmw=="/>
+		<!--Hide HP 9, Show HP 10-->
+		<POI MapID="1052" xpos="-602.1028" ypos="444.8626" zpos="183.897" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp9" GUID="ZTBby0+6lEuvDfeH0Hjljg=="/>
+		<POI MapID="1052" xpos="-602.1028" ypos="444.8626" zpos="183.897" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="7" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp10" GUID="mc/+GivAEEmX/dO0I0gPNA=="/>
+		<!--Hide HP 10, Show HP 11-->
+		<POI MapID="1052" xpos="-398.6659" ypos="148.1673" zpos="-116.9858" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="6" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp10" GUID="SnZwqLPtXkeywCbzB3QPKw=="/>
+		<POI MapID="1052" xpos="-398.6659" ypos="148.1673" zpos="-116.9858" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="6" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp11" GUID="L181EuXiX0iCTMRTLFs9Jw=="/>
+		<!--Hide HP 11, Show HP 1-->
+		<POI MapID="1052" xpos="-786.6181" ypos="379.3967" zpos="-412.5488" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" hide="ct.hpt.hot.vb.mrk.cma.cmm.hp11" GUID="fJkNeeKAvUOeQKwd6rW56Q=="/>
+		<POI MapID="1052" xpos="-786.6181" ypos="379.3967" zpos="-412.5488" type="ct.hpt.hot.vb.mrk.cma.cmm" alpha="0" triggerRange="10" autotrigger="1" show="ct.hpt.hot.vb.mrk.cma.cmm.hp1" GUID="ekl0NmribEGRs/4URuAqTg=="/>
 		
 		
 <!--Trails-->
 
-        <Trail type="ct.hpt.hot.vb.trl.mtr" trailData="Data/catPack/Trails/.trl"/>
-		<Trail type="ct.hpt.hot.vb.trl.atr" trailData="Data/catPack/Trails/.trl"/>
-		<Trail type="ct.hpt.hot.vb.trl.ctr" trailData="Data/catPack/Trails/.trl"/>
+		<!--HP Train > Heart of Thorns > Verdant Brink-->
+        <Trail type="ct.hpt.hot.vb.trl.mtr" trailData="Data/catPack/Trails/VBHPT.trl"/>
+		<Trail type="ct.hpt.hot.vb.trl.atr" trailData="Data/catPack/Trails/altVBHPT.trl"/>
+		<Trail type="ct.hpt.hot.vb.trl.ctr" trailData="Data/catPack/Trails/commVBHPT.trl"/>
 		
 		
 	</POIs>
